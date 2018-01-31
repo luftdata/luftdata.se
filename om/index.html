@@ -1,0 +1,93 @@
+---
+lang: sv
+layout: page
+wide: true
+title: Om initiativet och luftdata.se
+lead: true
+---
+
+<p>Målsättningen med luftdata.se är att förmedla kunskap om hur man bygger en egen mätstation för luftburna partiklar för att kunna bidra med öppna data till Citizen Science-initiativet <a href="http://luftdaten.info" target="_blank">luftdaten.info</a> som idén bakom luftdata.se är baserat på.</p>
+
+<p>Det finns ett flertal olika projekt som mäter luftkvalitet med den engagerade medborgaren som utgångspunkt. Luftdata.se valde att bygga på plattformen (hård- och mjukvara) som luftdaten.info har tagit fram p.g.a. dess enkelhet, kostnadseffektivitet, den stora befintliga användarbasen (över 4000 aktiva mätstationer) samt flexibiliteten kring att bidra med data till andra projekt som t.ex. <a href="https://opensensemap.org/" target="_blank">openSenseMap</a>.</p>
+
+<p>Innehållet på luftdata.se är delvis baserat på luftdaten.info, se även avsnittet <a href="#attribution">Erkännande/attribution</a> längre ner på denna sida. Luftdata.se är det svenska systerprojektet för luftdaten.info.</p>
+
+<h2 id="contact">Kontakt</h2>
+
+<p><a href="{{ site.contact }}" target="_blank">Facebook-gruppen Luftbubblan</a> är denna sajts diskussionsforum där vi diskuterar allt som har med luft att göra. Om du skulle ha frågor och synpunkter kring denna sajt kan du maila till <a href="mailto:info@luftdata.se">info@luftdata.se</a>.</p>
+
+<!-- Contributors -->
+
+  {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#{% endcapture %}
+  {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
+
+{% if authorstring %}
+  <h2>Bidragande författare</h2>
+  
+  {% assign authorslist = authorstring[1] %}
+
+  {% for a in authorstring %}
+    {% unless authorslist contains a %}
+      {% capture authorslist %}{{ authorslist }}@@{{ a }}{% endcapture %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign authorssorted = authorslist | split: '@@' | sort %}
+
+  {% capture contributor_names %}{% for contributor in site.contributors %}{{ contributor.name }}@@{% endfor %}#{% endcapture %}
+  {% assign contributorstring = contributor_names | remove: '@@#' | split: '@@' %}
+
+  <ul> <!--style="list-style-type:none;"-->
+  {% for author in authorssorted %}
+    {% if author contains '>>' %}
+    <li><a href="{{ author | split: '>>' | last }}" rel="external">{{ author | split: '>>' | first }}</a></li>
+    {% else %}
+    {% unless contributorstring contains author %}
+    <li>{{ author }}</li>
+    {% endunless %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}
+
+{% if site.devs %}
+  <h2>Bidragande utvecklare</h2>
+  
+  <ul>
+  {% for dev in site.devs %}
+    <li><a {% if dev.github %} href="https://github.com/{{ dev.github }}" rel="external"{% endif %}>{{ dev.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
+
+<h2 id="license">Licens av webbplatsens innehåll</h2>
+
+<p>Det innehåll som specifikt har tagits fram för luftdata.se är licensierad med <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</a>.</p>
+
+<h2 id="attribution">Erkännande ("attribution")</h2>
+
+<ul>
+  <li>Innehållet i <a href="/bygg">instruktionerna</a> och <a href="/faq">FAQ</a> är till större delar baserat på innehåll från <a href="http://luftdaten.info" target="_blank">luftdaten.info</a> som är licensierat med <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Germany (CC BY-SA 3.0 DE)</a>.</li>
+  <li>Bilderna som används i <a href="/bygg">instruktionerna</a> och som kommer från <a href="http://luftdaten.info" target="_blank">luftdaten.info</a> är licensierade av <a href="http://buero-fuer-gestalten.de" target="_blank">Büro für Gestalten</a> med <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">Creative Commons Attribution-NoDerivatives (CC BY-ND 4.0)</a>.</li>
+  <li>Loggan från luftdaten.info har skapats av Adam Whitcroft och är licensierad med <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution (CC BY 3.0)</a>. Loggan används även som "favicon" på denna webbplats.</li>
+  <li>Luftdata.ses design är baserad på <a href="https://github.com/okfn/handbook-theme/" target="_blank">Open Data Handbook theme</a> som har tagits fram av <a href="http://okfn.org" target="_blank">Open Knowledge</a>.</li>
+</ul>
+
+{% if site.supporters %}
+<h2>Stöd</h2>
+
+<p>
+  Luftdata.se har tagits fram med stöd av följande organisationer och projekt:
+
+<ul class="supporters" style="list-style-type:none;">
+  {% for supporter in site.supporters %}
+  {% if supporter.logo %}
+  <li>
+    <a href="{{ supporter.url }}" rel="external"><img src="{{ site.baseurl }}/img/supporters/{{ supporter.logo }}" alt="{{ supporter.name }}"></a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+</p>
+{% endif %}

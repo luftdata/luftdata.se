@@ -1,0 +1,38 @@
+---
+layout: default
+js: 
+ - vendor/jquery.adaptive-backgrounds.min
+ - home
+---
+
+<div class="home">
+  <section class="banner" data-adaptive-background='1' data-ab-css-background='1'>
+    <div class="wrapper">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p><br/>&nbsp;<br/>
+    </div>
+  </section>
+
+  <div class="wrapper">
+
+      <div>
+          <h2>Bygg en mätstation</h2>
+          <p>Monteringen är utformad så att alla kan bygga en mät&shy;station. Med endast 7 kopplings&shy;kablar och 2 bunt&shy;band gör du ett utvecklings&shy;kort och en sensor till en mät&shy;station.<br/>Exakt hur det går till ser du i våra detalj&shy;erade monterings&shy;anvisningar.</p>
+          <a href="{{ '/bygg' | prepend: site.baseurl }}">Läs mer</a>
+      </div>
+
+      <div>
+          <h2>Vanliga frågor</h2>
+          <p>Vad är PM<sub>2.5</sub> och PM<sub>10</sub>? Hur kan jag börja mäta själv? Hur mycket energi för&shy;brukar sensorn? Vad är sensorns livs&shy;längd? Var hittar jag käll&shy;koden?<br/><br/>
+          Svar på bl.a. dessa frågor hittar du i våra FAQ.</p>
+          <a href="{{ '/faq' | prepend: site.baseurl }}">Läs mer</a>
+      </div>
+
+      <div>
+          <h2>Hur ser läget ut?</h2>
+          <p><img src="/img/karta.png" width="280" height="160" /></p>
+          <a href="{{ site.luftdaten_map }}" target="_blank">Öppna kartan&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+      </div>
+
+  </div>
+</div>

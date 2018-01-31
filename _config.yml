@@ -1,0 +1,71 @@
+# Site settings
+title: Mät luftdata själv
+short_title: luftdata.se
+description: |
+    Partikelmätningar som öppna data &mdash; bygg en sensor själv
+    och bli del av ett världsomspännande Citizen Science-nätverk
+baseurl: ""
+url: "http://luftdata.se"
+github_username:  luftdata
+github_repo:  luftdata.se
+twitter: luftdata
+facebook: https://www.facebook.com/groups/luftbubblan
+contact: info@luftdata.se
+luftdaten_map: http://sweden.maps.luftdaten.info/#7/58.881/15.060
+
+googleanalytics: UA-111883597-1
+#google_verification:
+
+contributors:
+  -
+      name: Hannes Ebner
+      link: http://ebner.se
+  -
+      name: luftdaten.info
+      link: http://luftdaten.info
+  -
+      name: Sam Smith
+      link: http://smth.uk/
+
+supporters:
+  -
+    name: ENTRYSCAPE
+    logo: entryscape.png
+    footer_logo: entryscape-footer.png
+    url: https://entryscape.com
+  -
+    name: luftdaten.info - OK Lab Stuttgart
+    logo: luftdaten.png
+    footer_logo: luftdaten-footer.png
+    url: http://luftdaten.info
+
+markdown: kramdown
+
+permalink: /:year/:month/:title.html
+
+languages:
+  -
+    - sv
+    - svenska
+
+defaults:
+  -
+    scope:
+      path: "blog"
+    values:
+      layout: post
+      section: blog
+
+related_projects:
+  -
+      name: luftdaten.info
+      link: http://luftdaten.info/
+  -
+      name: InfluenceAir
+      link: http://influencair.be/
+  -
+      name: Air Bulgaria
+      link: https://airbg.info/
+  -
+      name: openSenseMap
+      link: https://opensensemap.org/

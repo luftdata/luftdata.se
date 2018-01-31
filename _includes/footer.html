@@ -1,0 +1,58 @@
+<footer class="site-footer">
+
+  <div>
+    <div class="primary">
+      <!--<a href="https://url.se/" rel="external"><img src="url" width="123" height="32" alt="Text"></a>-->
+
+      {% if site.supporters %}
+      <div class="supporters">
+        <h6>Stöds av</h6>
+        {% for supporter in site.supporters %}
+          {% if supporter.footer_logo %}
+          <a{% if supporter.url %} href="{{ supporter.url }}" rel="external"{% endif %}><img src="{{ site.baseurl }}/img/supporters/{{ supporter.footer_logo }}" alt="{{ supporter.name }}"></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="secondary">
+      <ul>
+        <!--<li><a href="{{ site.baseurl }}/contribute/">Bidra till {{ site.short_title }}</a></li>-->
+        <li><a href="/om/#license">Licenser och erkännande</a></li>
+        <li class="button"><a href="http://opendefinition.org/" rel="external"><img src="{{ site.baseurl }}/img/open-content.svg" width="80" height="15" alt="Open Content"/></a></li>
+      </ul>
+    </div>
+
+    <div class="tertiary">
+      {% if site.related_projects %}
+      <div>
+        <h6>Relaterade projekt</h6>
+        <ul>
+          {% for project in site.related_projects %}
+          <li><a href="{{ project.link }}">{{ project.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <ul class="icons">
+        {% if site.paypal %}
+        <li class="donate"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business={{ site.paypal }}&lc=GB&item_name={{ site.short_title }}%20Donation%20to%20Open%20Knowledge&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" rel="external"><span>Donate</span></a></li>
+        {% endif %}
+        {% if site.twitter %}
+        <li><a href="https://twitter.com/{{ site.twitter }}" rel="external"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>&nbsp;</li>
+        {% endif %}
+        {% if site.facebook %}
+        <li><a href="{{ site.facebook }}" rel="external"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>&nbsp;</li>
+        {% endif %}
+        {% if site.contact %}
+        <li><a href="mailto:{{ site.contact }}" rel="external"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>&nbsp;</li>
+        {% endif %}
+        {% if site.github_repo %}
+        <li><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" rel="external"><i class="fa fa-code-fork fa-lg" aria-hidden="true"></i></a></li>
+        {% endif %}
+      </ul>
+    </div>
+
+  </div>
+</footer>

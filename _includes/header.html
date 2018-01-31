@@ -1,0 +1,104 @@
+{% assign url_parts = page.url | split:'/' %}
+{% assign url_last = url_parts | last  %}
+
+<header class="site-header">
+  <a href="#menu" class="show-menu"><span class="text">Öppna menyn</span></a>
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
+</header>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a href="{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Startsida</a>
+    </li>
+
+    {% if disablesectionbelow %}
+    <li {% if url_parts contains 'nyheter' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/nyheter/">Nyheter</a>
+    </li>
+    {% endif %}
+
+    <li {% if url_last ==  'om' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/om/">Om initiativet och luftdata.se</a>
+    </li>
+
+    <li {% if url_last == 'bygg' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/bygg/">Bygg en mätstation</a>
+      <ul>
+        <li {% if url_last == 'bygg' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/">Kom igång</a>
+        </li>
+        <li {% if url_last == 'firmware' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/firmware/">Installera firmware</a>
+        </li>
+        <li {% if url_last == 'montera' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/montera/">Montera de elektroniska komponenterna</a>
+        </li>
+        <li {% if url_last == 'fardigstalla' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/fardigstalla/">Färdigställa</a>
+        </li>
+        <li {% if url_last == 'konfigurera' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/konfigurera/">Konfigurera</a>
+        </li>
+        <li {% if url_last == 'rapportera' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/rapportera/">Börja rapportera data</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="{{ site.luftdaten_map }}" target="_blank">Karta&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+    </li>
+
+    <li {% if url_last == 'data' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/data/">Tillgång till data</a>
+      {% if disablesectionbelow %}
+      <ul>
+        <li {% if url_last == 'data' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/data/">Data från luftdaten.info</a>
+        </li>
+        <li {% if url_last == 'andra' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/data/myndigheter/">Data från offentliga aktörer</a>
+        </li>
+        <li {% if url_last == 'andra' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/data/andra/">Data från andra aktörer</a>
+        </li>
+      </ul>
+      {% endif %}
+    </li>
+
+    <li {% if url_last == 'faq' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/faq/">Vanliga frågor</a>
+      {% if disablesectionbelow %}
+      <ul>
+        {% assign sorted_posts = (site.categories.faq | sort:'title') %}
+        {% for post in sorted_posts %}
+        {% assign post_url_last = (post.url | split:'/' | last) %}
+        <li {% if url_last == post_url_last %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/faq/#{{ post_url_last }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+
+    {% if disablesectionbelow %}
+    <li {% if url_last == 'contribute' %}class="Selected"{% endif %}>
+      <a href="{{ "/contribute/" | prepend: site.baseurl }}">Bidra till {{ site.short_title }}</a>
+      <ul>
+        <li {% if url_last == 'contribute' %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/contribute/">Contributing</a>
+        </li>
+        <li {% if url_last == 'editing' %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/contribute/editing/">Editing</a>
+        </li>
+        <li {% if url_last == 'adding' %}class="Selected"{% endif %}>
+        <a href="{{ site.baseurl }}/contribute/adding/">Adding</a>
+        </li>
+      </ul>
+    </li>
+    {% endif %}
+
+  </ul>
+
+</nav>

@@ -1,0 +1,38 @@
+---
+title: Vanliga frågor
+lang: sv
+layout: default
+wide: true
+---
+
+{% assign section_base = site.baseurl | append: page.section | append: '/' %}
+
+<div class="faq">
+  <article class="post-content lead-paragraph">
+    <a href="/{{ section_base }}" class="pre-header">{{ page.section }}</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <p>Tills denna sida fylls med innehåll kan vi rekommendera att ta en titt på <a href="http://luftdaten.info/faq/" target="_blank">FAQ-sidan på luftdaten.info</a>. Google Translate fungerar bra för att <a href="https://translate.google.com/translate?sl=de&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fluftdaten.info%2Ffaq%2F" target="_blank">översätta sidan till engelska</a>.</p><br/>
+
+    {% if disablesectionbelow %}
+    <ul class="post-list">
+      {% assign sorted_posts = site.categories.faq | sort:'title' %}
+      {% for post in sorted_posts %}
+
+      {% assign post_length = post.content | number_of_words %}
+      {% assign post_url_last = post.url | split:'/' | last %}
+      <li class="{% if post_length > 100 %}long{% else %}short{% endif %}">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" name="{{ post_url_last }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-excerpt">{{ post.content | truncatewords: 100 | markdownify | strip_html }}</span>
+        {% if post_length > 100 %}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Läs mer</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </article>
+</div>
