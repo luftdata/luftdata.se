@@ -29,7 +29,7 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * USB-kabel, längd beroende på situation, USB 2.0 A hane - USB 2.0 micro hane, t.ex. platt utformning för fönstertätningar [[Conrad](https://www.conrad.se/USB-2.0-F%f6rl%e4ngningskabel-Renkforce-%5b1x-USB-2.0-A-hane-1x-USB-2.0-A-hona%5d-H%f6gflexibel-3-m-Svart.htm?websale8=conrad-swe&pi=1365367&amp;ci=SHOP_AREA_258249_0410105)]
   * USB-strömadapter (500 mA räcker) [[Kjell](https://www.kjell.com/se/sortiment/dator-natverk/datortillbehor/usb-tillbehor/usb-laddare/linocell-mini-usb-laddare-2-4-a-svart-p95717), [Biltema](http://www.biltema.se/sv/Kontor---Teknik/Mobilt/Kablar-och-laddare/Reseladdare-USB-2000036148/)]
   * Buntband [[Bauhaus](https://www.bauhaus.se/buntband-100-x-2-5-transparent-100-pack.html)]
-  * Slang, invändig diameter 6 mm, längd ca. 20 cm [[Bauhaus](http://www.biltema.se/sv/Bat/VVS/Slang/Vattenslang-10-m-2000017745/?artId=15330)]
-  * 2x avloppsböj som väderskydd (DN75 87°, Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html)]
+  * Slang, invändig diameter 6 mm, längd ca. 20 cm [[Bauhaus](https://www.bauhaus.se/pvc-slang-6x1-5mm.html), [Biltema](http://www.biltema.se/sv/Bat/VVS/Slang/Vattenslang-10-m-2000017745/?artId=15330)]
+  * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
   
 Har du hittat nån bra källa för en byggdel? Hör av dig till [info@luftdata.se](mailto:info@luftdata.se) så lägger vi till infon här.
