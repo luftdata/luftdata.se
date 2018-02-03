@@ -16,6 +16,7 @@ pagination:
     name: Börja rapportera data
     link: /bygg/rapportera/
 lead: false
+wide: true
 ---
 
 Efter du har anslutat mätstationen till USB-strömadaptern så försöker den koppla upp sig på det förinställda trådlösa nätverket. Om stationen misslyckas så öppnar den en egen åtkomstpunkt med SSID `Feinstaubsenor-ID` där `ID` är lika med stationens (d.v.s. NodeMCU) ID.
@@ -46,3 +47,8 @@ Så fort du har sparat inställningarna startas mätstationen om och är inte l�
 </div>
 
 Nu är det bara att [medddela oss att din nya mätstation finns](../rapportera) för att den ska bli en del av det stora sensormolnet!
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}

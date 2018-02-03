@@ -16,6 +16,7 @@ pagination:
     name: Konfigurera mätstationen
     link: /bygg/konfigurera/
 lead: true
+wide: true
 ---
 
 Nu ska vi fästa delarna i varandra och montera i väderskyddet.
@@ -37,3 +38,8 @@ Vi drar USB-kabel genom en avloppsböj (börja på sidan utan tätning) och ser 
 Nu är vi nästan klara. Vi tar en till avloppsböj och skjuter på den första (utan att klämma några kablar). Temperatursensorn positionerar vi så att den hamnar strax innanför rörändan. Om slangen sticker ut mycket kan den kortas ner, men den ska sticka ut nån centimeter.
 
 Dra myggnät eller liknande över rörens öppna ändar så att insekter hindras från att komma in.
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}

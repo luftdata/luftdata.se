@@ -16,6 +16,7 @@ pagination:
     name: Koppla ihop elektroniken
     link: /bygg/koppla/
 lead: false
+wide: true
 ---
 
 Mätstationens programkod ("firmware") finns färdigt att ladda ner, men den behöver överföras till NodeMCU som är den delen som exekverar mjukvaran.
@@ -77,3 +78,8 @@ Eventuellt behöver kommandot ovan exekveras som `root` t.ex. via `sudo <kommand
 Öppna terminalen och exekvera <code style="white-space: normal;">~/Library/Arduino15/packages/esp8266/tools/esptool/0.4.9/esptool -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp /dev/cu.wchusbserial1410 -cf sökväg/latest_en.bin</code>. Du måste anpassa porten efter `-cp` och sökvägen till firmware efter `-cf`.
 
 Eventuellt behöver kommandot ovan exekveras som `root` t.ex. via `sudo <kommando>`.
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}

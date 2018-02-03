@@ -10,6 +10,7 @@ pagination:
     name: Installera firmware
     link: /bygg/firmware/
 lead: true
+wide: true
 ---
 
 Monteringen är utformad så att alla kan bygga en mät&shy;station. Med endast 7 kopplings&shy;kablar och 2 bunt&shy;band gör du ett utvecklings&shy;kort och en sensor till en mät&shy;station.
@@ -33,3 +34,8 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
   
 Har du hittat nån bra källa för en byggdel? Hör av dig till [info@luftdata.se](mailto:info@luftdata.se) så lägger vi till infon här.
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}

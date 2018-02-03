@@ -16,6 +16,7 @@ pagination:
     name: Montera mätstationen
     link: /bygg/montera/
 lead: false
+wide: true
 ---
 
 Du behöver [överföra firmware](../firmware) innan du kopplar ihop alla komponenter! Detta för att om det skulle vara så att firmware inte kan överföras så behöver du inte ta isär och sätta ihop allt igen. Det minskar också risken för att skada anslutningar när du kopplar in och ur USB-kabeln.
@@ -59,3 +60,8 @@ DHT22 Pin 4 -> Pin GND
 ## Koppla in andra sensorer eller displays
 
 Se ["Vanliga frågor"](/faq).
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}

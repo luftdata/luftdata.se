@@ -13,6 +13,7 @@ pagination:
     name: Konfigurera mätstationen
     link: /bygg/konfigurera/
 lead: false
+wide: true
 ---
 
 Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan". Skicka ett mail till [info@luftdata.se](mailto:info@luftdata.se) med följande information:
@@ -26,3 +27,8 @@ Vi behöver lite information innan din mätstation blir en del av nätverket och
   <h6>Frågor?</h6>
   <p>Om du fortfarande har frågor efter att ha läst våra <a href="/faq">vanliga frågor</a> eller dessa <a href="/bygg">instruktioner</a> så får du gärna ta kontakt med oss via våra <a href="/om#contact">kontaktvägar</a>.</p>
 </div>
+
+{% if page.pagination.next %}
+---
+#### Nästa steg: [{{ page.pagination.next.name }}]({{ page.pagination.next.link }})
+{% endif %}
