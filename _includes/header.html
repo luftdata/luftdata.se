@@ -31,11 +31,14 @@
         <li {% if url_last == 'firmware' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/bygg/firmware/">Installera firmware</a>
         </li>
+        <li {% if url_last == 'koppla' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/bygg/koppla/">Koppla ihop elektroniken</a>
+        </li>
         <li {% if url_last == 'montera' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/bygg/montera/">Montera de elektroniska komponenterna</a>
         </li>
         <li {% if url_last == 'konfigurera' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/bygg/konfigurera/">Konfigurera</a>
+          <a href="{{ site.baseurl }}/bygg/konfigurera/">Konfigurera mätstationen</a>
         </li>
         <li {% if url_last == 'rapportera' %}class="Selected"{% endif %}>
           <a href="{{ site.baseurl }}/bygg/rapportera/">Börja rapportera data</a>
