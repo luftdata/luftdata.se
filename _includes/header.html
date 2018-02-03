@@ -66,7 +66,6 @@
 
     <li {% if url_last == 'faq' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/faq/">Vanliga frågor</a>
-      {% if disablesectionbelow %}
       <ul>
         {% assign sorted_posts = (site.categories.faq | sort:'title') %}
         {% for post in sorted_posts %}
@@ -76,7 +75,6 @@
         </li>
         {% endfor %}
       </ul>
-      {% endif %}
     </li>
 
     {% if disablesectionbelow %}
