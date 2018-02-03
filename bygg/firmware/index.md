@@ -60,11 +60,11 @@ Du bör nu stänga Arduino IDE, den behövdes enbart för att installera mjukvar
     
 ### Windows
 
-Öppna terminalen (`cmd.exe`) och exekvera <code style="white-space: normal;">%USERPROFILE%\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.9\esptool.exe -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp COM11 -cf C:\sökväg\latest_en.bin</code> (anpassa porten efter `-cp` och sökvägen till firmware efter `-cf`).
+Öppna terminalen (`cmd.exe`) och exekvera <code style="white-space: normal;">%USERPROFILE%\AppData\Local\Arduino15\packages\esp8266\tools\esptool\0.4.12\esptool.exe -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp COM11 -cf C:\sökväg\latest_en.bin</code> (anpassa porten efter `-cp`, sökvägen till firmware efter `-cf` och eventuellt även sökvägen till `esptool` ifall versionen är en annan).
     
 ### Linux
 
-Öppna terminalen och exekvera <code style="white-space: normal;">~/.arduino15/packages/esp8266/tools/esptool/0.4.12/esptool -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp /dev/ttyUSB0 -cf sökväg/latest_en.bin</code>. Du måste anpassa porten efter `-cp`, sökvägen till firmware efter `-cf` och eventuellt även sökvägen till `esptool` ifall versionen är en annan än 0.4.12.
+Öppna terminalen och exekvera <code style="white-space: normal;">~/.arduino15/packages/esp8266/tools/esptool/0.4.12/esptool -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp /dev/ttyUSB0 -cf sökväg/latest_en.bin</code>. Du måste anpassa porten efter `-cp`, sökvägen till firmware efter `-cf` och eventuellt även sökvägen till `esptool` ifall versionen är en annan.
 
 Eventuellt behöver kommandot ovan exekveras som `root` t.ex. via `sudo <kommando>`.
 
@@ -75,7 +75,7 @@ Eventuellt behöver kommandot ovan exekveras som `root` t.ex. via `sudo <kommand
   
 ### Mac
 
-Öppna terminalen och exekvera <code style="white-space: normal;">~/Library/Arduino15/packages/esp8266/tools/esptool/0.4.9/esptool -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp /dev/cu.wchusbserial1410 -cf sökväg/latest_en.bin</code>. Du måste anpassa porten efter `-cp` och eventuellt även sökvägen till `esptool` ifall versionen är en annan än 0.4.12.
+Öppna terminalen och exekvera <code style="white-space: normal;">~/Library/Arduino15/packages/esp8266/tools/esptool/0.4.12/esptool -vv -cd nodemcu -cb 57600 -ca 0x00000 -cp /dev/cu.wchusbserial1410 -cf sökväg/latest_en.bin</code>. Du måste anpassa porten efter `-cp`, sökvägen till firmware efter `-cf` och eventuellt även sökvägen till `esptool` ifall versionen är en annan.
 
 Eventuellt behöver kommandot ovan exekveras som `root` t.ex. via `sudo <kommando>`.
 
