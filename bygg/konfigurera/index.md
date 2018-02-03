@@ -23,7 +23,7 @@ Efter du har anslutat mätstationen till USB-strömadaptern så försöker den k
 
 Försök koppla upp dig på åtkomstpunkten som är öppen och inte kräver något lösenord. Beroende på hur många andra trådlösa nätverk det finns i närheten så kan det krävas flera försök. Efter 10 minuter stängs åtkomstpunkten av med automatik.
 
-Efter du har fått kontakt med åtkomstpunkten kan du öppna adressen [http://192.168.4.1/](http://192.168.4.1) i din webbläsare för att komma åt din mätstations webbgränssnitt:
+Efter du har fått kontakt med mätstationens åtkomstpunkt kan du öppna adressen [http://192.168.4.1/](http://192.168.4.1) i din webbläsare för att komma åt din mätstations webbgränssnitt:
 
 ![](../img/konfigurera_1.png) | &nbsp;
 
@@ -31,9 +31,9 @@ Klicka på **Configuration** för att öppna (och ändra) inställningarna:
 
 ![](../img/konfigurera_2.png) | &nbsp;
 
-Unter **WiFi Settings** högst upp kan du mata in ditt nätverksnamn och lösenord. Förutom dessa inställningar behöver du inte ändra nånting om du har följt dess instruktioner. Om du har kopplat in ytterligare sensore eller displays så kan du behöva aktivera dessa längre ner i formuläret.
+Under **WiFi Settings** högst upp kan du mata in ditt nätverksnamn och lösenord. Förutom dessa inställningar behöver du inte ändra nånting om du har följt dess instruktioner. Om du har kopplat in ytterligare sensore eller displays så kan du behöva aktivera dessa längre ner i formuläret.
 
-Så fort du har sparat inställningarna startas mätstationen om och är inte längre tillgänglig på ovan angivna IP-adressen, istället får den en IP-adress i ditt vanliga trådlösa nätverket.
+Så fort du har sparat inställningarna startas mätstationen om och är inte längre tillgänglig på ovan angivna IP-adressen, istället får den en IP-adress i ditt vanliga trådlösa nätverket. Du kan enkelt ta reda på din mätstations IP-adress med appen [Fling](https://www.fing.io/) som finns för Android och iOS. Om din router delar ut dynamiska IP-adresser är ett tips att ge mätstationen en fast IP-adress i din routers inställningar.
 
 <div class="note">
   <h6>Ett första test!</h6>
