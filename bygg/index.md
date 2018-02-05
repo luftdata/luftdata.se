@@ -24,7 +24,7 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
 ## Inköpslista
 
   * NodeMCU ESP8266 v3 (CPU & WLAN) [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/utvecklingskort/nodemcu-utvecklingskort-p87949), [Amazon](https://www.amazon.de/dp/B06Y1ZPNMS/)]
-  * SDS011 (partikelsensor) [[AliExpress](https://www.aliexpress.com/wholesale?SortType=price_asc&shipCountry=de&SearchText=sds011&CatId=523)] (i Europa finns sensorn på [segor.de](http://www.segor.de) men det oklart om det levereras till Sverige)
+  * SDS011 (partikelsensor) [[AliExpress](https://www.aliexpress.com/wholesale?SortType=price_asc&shipCountry=de&SearchText=sds011&CatId=523)] (i EU finns sensorn på [segor.de](http://www.segor.de) som även leverar till Sverige)
   * DHT22 (temp. och luftfuktighet, *valfritt*) [[m.nu](https://www.m.nu/sensorer-matinstrument/dht22-temperature-humidity-sensor-extras), [Amazon](https://www.amazon.de/dp/B06XF4TNT9/)]
   * Kopplingskablar, ca. 20 cm, hona-hona [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/tillbehor/luxorparts-delbar-kopplingskabel-40-pol-hane-hane-p87901)]
   * USB-kabel, längd beroende på situation, USB 2.0 A hane - USB 2.0 micro hane, t.ex. platt utformning för fönstertätningar [[Conrad](https://www.conrad.se/USB-2.0-F%f6rl%e4ngningskabel-Renkforce-%5b1x-USB-2.0-A-hane-1x-USB-2.0-A-hona%5d-H%f6gflexibel-3-m-Svart.htm?websale8=conrad-swe&pi=1365367&amp;ci=SHOP_AREA_258249_0410105)]
