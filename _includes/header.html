@@ -74,7 +74,7 @@
         {% for post in sorted_posts %}
         {% assign post_url_last = (post.url | split:'/' | last) %}
         <li {% if url_last == post_url_last %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/faq/#{{ post_url_last }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}/faq/{{ post_url_last }}">{{ post.title }}</a>
         </li>
         {% endfor %}
       </ul>
