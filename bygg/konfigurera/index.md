@@ -3,7 +3,7 @@ section: Bygg en mätstation
 layout: docs
 title: Konfigurera mätstationen
 authors:
-  - luftdaten.info
+  - Luftdaten.info
   - Hannes Ebner
 pagination:
   start:

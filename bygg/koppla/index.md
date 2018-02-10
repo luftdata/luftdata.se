@@ -3,7 +3,7 @@ section: Bygg en mätstation
 layout: docs
 title: Koppla ihop de elektroniska komponenterna
 authors:
-  - luftdaten.info
+  - Luftdaten.info
   - Hannes Ebner
 pagination:
   start:
