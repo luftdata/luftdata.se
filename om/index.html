@@ -18,7 +18,11 @@ lead: true
 
 <!-- Contributors -->
 
-  {% capture authors %}{% for post in site.value-stories %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}{% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#{% endcapture %}
+  {% capture authors %}
+  {% for post in site.posts %}{% for author in post.authors %}{{ author }}@@{% endfor %}{% endfor %}
+  {% for page in site.pages %}{% for author in page.authors %}{{ author }}@@{% endfor %}{% endfor %}
+  {% for author in site.contributors %}{{ author.name }}{% if author.link %}>>{{ author.link }}{% endif %}@@{% endfor %}#
+  {% endcapture %}
   {% assign authorstring = authors | remove: '@@#' | split: '@@' %}
 
 {% if authorstring %}
