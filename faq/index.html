@@ -12,12 +12,11 @@ wide: true
     <a href="/{{ section_base }}" class="pre-header">{{ page.section }}</a>
     <h1 class="post-title">{{ page.title }}</h1>
 
-    <p>På denna sida samlar vi de vanligaste frågor och ger svar.</p><br/>
+    <p>Här samlas de vanligaste frågor. <a href="/om#contact">Hör av dig</a> om du saknar nåt!</p><br/>
 
     <ul class="post-list">
       {% assign sorted_posts = site.categories.faq | sort:'title' %}
-      {% for post in site.categories.faq %}
-
+      {% for post in sorted_posts %}
       {% assign post_length = post.content | number_of_words %}
       {% assign post_url_last = post.url | split:'/' | last %}
       <li class="{% if post_length > 100 %}long{% else %}short{% endif %}">
