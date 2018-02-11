@@ -12,7 +12,7 @@ wide: true
 På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 
 
-## projekt
+## Projekt
 * [Luftdaten.info (DE)](http://luftdaten.info)
 * [Hackair.eu (EU)](http://www.hackair.eu/)
 * [Air Apparent (UK)](https://airapparentuk.wordpress.com/)
@@ -40,8 +40,6 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 * [Umeå kommun luftdata](http://www.umea.se/umeakommun/byggaboochmiljo/bullerochluftkvalitet/luftenutomhus/luftkvaliteteniumea/luftmatningar.4.232bb3eb132b9e0c2ca800060604.html)
 
 
-
-
 ## Datakällor
 
 * [OpenSense Networks](https://www.opensense.network/beta/apidocs/)
@@ -61,9 +59,10 @@ Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101
 
 ## Övrigt
 
-* Naturvårdsverket. "Utsläpp av små partiklar (PM2,5) till luft"  http://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM25-utslapp-till-luft/
+* Naturvårdsverket. "[Utsläpp av små partiklar (PM2,5) till luft](http://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM25-utslapp-till-luft/)"  
 
 
 ## Kod/Mjukvara
 
 * [Open Data Stuttgart (Luftdaten)](https://github.com/opendata-stuttgart)
+* [Jupyter-notebook för att plotta data från en sensor](https://github.com/opendata-stuttgart/jupyter/blob/master/notebook/plot_one_sensor.ipynb)
