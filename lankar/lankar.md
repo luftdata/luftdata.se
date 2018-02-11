@@ -18,6 +18,10 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 * [Air Apparent (UK)](https://airapparentuk.wordpress.com/)
 * [Louisiana Bucket Brigade (US)](http://labucketbrigade.org/)
 * [No Silvertown Tunnel](https://silvertowntunnel.co.uk/)
+* [Envisum](https://www.utu.fi/fi/yksikot/mkk/hankkeet/envisum/Sivut/home.aspx)
+* [LovIoT](http://www.loviot.se/)
+* [Svenska Luftvårdsföreningen](http://www.luftvard.se/se)
+* [Mapping for Change (UK)](http://mappingforchange.org.uk/)
 
 
 ## Presentationer
@@ -45,11 +49,14 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 
 ## Vetenskapliga artiklar
 
-Se separat [litteraturlista](http://luftdata.se/lankar/vetenskapligaartiklar.html). '
+Se separat [litteraturlista](http://luftdata.se/lankar/vetenskapligaartiklar.html).
 Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101111/luftbubblan).
+
+<!--
 
 ## Rapporter i media
 
+-->
 
 
 ## Övrigt
@@ -58,3 +65,5 @@ Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101
 
 
 ## Kod/Mjukvara
+
+* [Open Data Stuttgart (Luftdaten)](https://github.com/opendata-stuttgart)
