@@ -25,13 +25,28 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 * Schripp, Tobias, and Patrick Oßwald. “Ambient Ultra-Fine Particle Concentration Monitoring during a ‘Fine Dust Alert’ Event in Stuttgart Focusing on High Size and Time Resolution,” 2017. http://www.nanoparticles.ch/archive/2017_Schripp_PR.pdf.
 
 
-## Datakällor 
 
+## Realtidsdata eller nära realtidsdata
+
+* [Naturvårdsverket](https://www.naturvardsverket.se/Sa-mar-miljon/Klimat-och-luft/Statistik-om-luft/Webbtjanst-luftkvalitetsdata/)
+* [SLB Analys (Stockholm)](http://slb.nu/slbanalys/luften-idag/)
+* [Luften i Göteborg](https://goteborg.se/luften)
+* [Göteobrgs psidatasida med bland annat månadsrpporter och API för luften](https://goteborg.se/psidata)
+* [Malmö kommun luftdata](http://malmo.se/Bo-bygga--miljo/Miljolaget-i-Malmo/Luft/Luften-just-nu.html)
+* [Umeå kommun luftdata](http://www.umea.se/umeakommun/byggaboochmiljo/bullerochluftkvalitet/luftenutomhus/luftkvaliteteniumea/luftmatningar.4.232bb3eb132b9e0c2ca800060604.html)
+
+
+
+
+## Datakällor
+
+* [OpenSense Networks](https://www.opensense.network/beta/apidocs/)
 
 
 ## Vetenskapliga artiklar
 
-
+Se separat [litteraturlista](http://luftdata.se/lankar/vetenskapligaartiklar.html). '
+Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101111/luftbubblan).
 
 ## Rapporter i media
 
