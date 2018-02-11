@@ -6,7 +6,7 @@ categories: faq
 wide: true
 permalink: /faq/andra-sensorer
 authors:
-  - luftdaten.info
+  - Luftdaten.info
   - Hannes Ebner
 ---
 Mätstationen har stöd för andra sensorer utöver SDS011 och DHT22. Aktuellt finns det stöd för följande:

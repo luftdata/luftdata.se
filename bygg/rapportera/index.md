@@ -3,7 +3,7 @@ section: Bygg en mätstation
 layout: docs
 title: Börja rapportera data
 authors:
-  - luftdaten.info
+  - Luftdaten.info
   - Hannes Ebner
 pagination:
   start:

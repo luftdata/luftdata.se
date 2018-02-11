@@ -3,7 +3,7 @@ section: Bygg en mätstation
 layout: docs
 title: Installera firmware
 authors:
-  - luftdaten.info
+  - Luftdaten.info
   - Hannes Ebner
 pagination:
   start:
