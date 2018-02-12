@@ -2,14 +2,13 @@
 section: Länkar
 layout: docs
 title: Länkar
-authors:
-  - Christopher Kullenberg
 pagination:
 lead: true
 wide: true
 ---
 
 På denna sida hittar du länkar till olika projekt, resurser och litteratur.
+Om du har fler länktips, lägg gärna in dem i [detta dokument](https://etherpad.net/p/luftbubblan).
 
 
 ## Projekt
@@ -17,21 +16,29 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 * [Hackair.eu (EU)](http://www.hackair.eu/)
 * [Air Apparent (UK)](https://airapparentuk.wordpress.com/)
 * [Louisiana Bucket Brigade (US)](http://labucketbrigade.org/)
-* [No Silvertown Tunnel](https://silvertowntunnel.co.uk/)
-* [Envisum](https://www.utu.fi/fi/yksikot/mkk/hankkeet/envisum/Sivut/home.aspx)
-* [LovIoT](http://www.loviot.se/)
-* [Svenska Luftvårdsföreningen](http://www.luftvard.se/se)
+* [No Silvertown Tunnel (UK)](https://silvertowntunnel.co.uk/)
+* [Envisum (FI)](https://www.utu.fi/fi/yksikot/mkk/hankkeet/envisum/Sivut/home.aspx)
+* [LovIoT (SE)](http://www.loviot.se/)
+* [Svenska Luftvårdsföreningen (SE)](http://www.luftvard.se/se)
 * [Mapping for Change (UK)](http://mappingforchange.org.uk/)
 
 
-## Presentationer
+## Myndigheter och organisationer
+* [Svenska miljöinstitutet](https://www.ivl.se/sidor/omraden/luft.html)
 
+
+## Sensortillverkare
+* [Senseair](https://senseair.com/solutions/outdoor-air-quality/)
+* [Insplorion](https://www.insplorion.com/en/sensor-systems/air-quality-sensing/)
+* [Bosch Sensortech](https://www.bosch-sensortec.com/bst/products/environmental/integrated_environmental_unit/ overview_integratedenvironmentalunit)
+
+
+## Presentationer
 * Schripp, Tobias, and Patrick Oßwald. “Ambient Ultra-Fine Particle Concentration Monitoring during a ‘Fine Dust Alert’ Event in Stuttgart Focusing on High Size and Time Resolution,” 2017. http://www.nanoparticles.ch/archive/2017_Schripp_PR.pdf.
 
 
 
 ## Realtidsdata eller nära realtidsdata
-
 * [Naturvårdsverket](https://www.naturvardsverket.se/Sa-mar-miljon/Klimat-och-luft/Statistik-om-luft/Webbtjanst-luftkvalitetsdata/)
 * [SLB Analys (Stockholm)](http://slb.nu/slbanalys/luften-idag/)
 * [Luften i Göteborg](https://goteborg.se/luften)
@@ -41,12 +48,14 @@ På denna sida hittar du länkar till olika projekt, resurser och litteratur.
 
 
 ## Datakällor
-
 * [OpenSense Networks](https://www.opensense.network/beta/apidocs/)
 
 
-## Vetenskapliga artiklar
+## Forskningsprojekt
+* [Kemiska nanosensorer, Chalmers](https://www.chalmers.se/sv/institutioner/fysik/nyheter/Sidor/Optiskt-fingeravtryck-kan-avslöja-föroreningar-i-luften.aspx)
 
+
+## Vetenskapliga artiklar
 Se separat [litteraturlista](http://luftdata.se/lankar/vetenskapligaartiklar.html).
 Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101111/luftbubblan).
 
@@ -57,12 +66,11 @@ Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101
 -->
 
 
-## Övrigt
-
+## Rapporter
 * Naturvårdsverket. "[Utsläpp av små partiklar (PM2,5) till luft](http://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM25-utslapp-till-luft/)"  
 
 
-## Kod/Mjukvara
+## Kod/mjukvara
 
 * [Open Data Stuttgart (Luftdaten)](https://github.com/opendata-stuttgart)
 * [Jupyter-notebook för att plotta data från en sensor](https://github.com/opendata-stuttgart/jupyter/blob/master/notebook/plot_one_sensor.ipynb)
