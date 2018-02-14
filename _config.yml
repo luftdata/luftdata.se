@@ -2,8 +2,8 @@
 title: Mät luftdata själv
 short_title: luftdata.se
 description: |
-    Partikelmätningar som öppna data &mdash; bygg en sensor och
-    bli del av ett världsomspännande Citizen Science-nätverk
+    Bygg en egen mätstation för luftpartiklar och bli del
+    av ett världsomspännande Citizen Science-nätverk
 baseurl: ""
 url: "http://luftdata.se"
 github_username:  luftdata
