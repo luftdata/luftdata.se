@@ -52,7 +52,7 @@ Du kan undvika eventuella problem vid uppkoppling eller överföring genom att a
   
 <div class="note">
   <h6>Ta reda på rätt "port"</h6>
-  <p>Oavsett operativssystem behöver du ta reda på vilken port drivrutinen använder när den kommunicerar med din NodeMCU. Porten behöver du sedan för att kunna exekvera kommandon nedan för att överföra firmwaran.</p>
+  <p>Oavsett operativssystem behöver du ta reda på vilken port drivrutinen använder när den kommunicerar med din NodeMCU. Porten behöver du sedan för att kunna exekvera kommandon nedan för att överföra firmwaren.</p>
   <p>Öppna Arduino IDE och leta dig till menyn <strong>Tools</strong> -> <strong>Port</strong> där det direkt i menyn listas alla tillgängliga portar. Porten som NodeMCU är ansluten till brukar kunna ses direkt. Om det finns flera portar och det inte framgår tydligt vilken som används av NodeMCU så går det bra att välja en port för att sedan köra <strong>Tools</strong> -> <strong>Get Board Info</strong>. Om rätt port är vald så dyker det upp information vid VID och PID.</p>
 </div>
 
