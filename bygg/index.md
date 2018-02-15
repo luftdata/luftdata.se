@@ -23,7 +23,8 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
 
 ## Inköpslista
 
-  * NodeMCU ESP8266 v3 (CPU & WLAN) [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/utvecklingskort/nodemcu-utvecklingskort-p87949), [Amazon](https://www.amazon.de/dp/B06Y1ZPNMS/)]
+  * NodeMCU ESP8266 v3 (CPU & WLAN) [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/utvecklingskort/nodemcu-utvecklingskort-p87949), [Amazon](https://www.amazon.de/dp/B06Y1ZPNMS/),
+  [Lawicel](https://www.lawicel-shop.se/nodemcu-v3-with-esp-12e-ch340)]
   * SDS011 (partikelsensor) [[m.nu](https://www.m.nu/sensorer-matinstrument/nova-pm-sensor-sds011-1), [AliExpress](https://www.aliexpress.com/wholesale?SortType=price_asc&shipCountry=de&SearchText=sds011&CatId=523), [Segor](http://www.segor.de)]
   * DHT22 (temp. och luftfuktighet, *valfritt*) [[m.nu](https://www.m.nu/sensorer-matinstrument/dht22-temperature-humidity-sensor-extras), [Amazon](https://www.amazon.de/dp/B06XF4TNT9/)]
   * Kopplingskablar, ca. 20 cm, hona-hona [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/tillbehor/luxorparts-delbar-kopplingskabel-40-pol-hona-hona-p87906)]
@@ -32,7 +33,7 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * Buntband [[Bauhaus](https://www.bauhaus.se/buntband-100-x-2-5-transparent-100-pack.html)]
   * Slang, invändig diameter 6 mm, längd ca. 20 cm [[Bauhaus](https://www.bauhaus.se/pvc-slang-6x1-5mm.html), [Biltema](http://www.biltema.se/sv/Bat/VVS/Slang/Vattenslang-10-m-2000017745/?artId=15330)]
   * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
-  
+
 Har du hittat nån bra källa för en byggdel? Hör av dig till [info@luftdata.se](mailto:info@luftdata.se) så lägger vi till infon här.
 
 {% if page.pagination.next %}
