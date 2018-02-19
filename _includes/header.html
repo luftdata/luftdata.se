@@ -12,11 +12,9 @@
       <a href="{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Startsida</a>
     </li>
 
-    {% if disablesectionbelow %}
     <li {% if url_parts contains 'nyheter' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/nyheter/">Nyheter</a>
     </li>
-    {% endif %}
 
     <li {% if url_last ==  'om' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/om/">Om initiativet och luftdata.se</a>
