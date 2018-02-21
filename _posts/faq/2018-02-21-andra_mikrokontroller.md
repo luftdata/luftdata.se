@@ -27,7 +27,7 @@ Den har en ESP-12 modul och 4MB flashminne
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
-| <img src="https://i1.wp.com/www.esp8266learning.com/wp-content/uploads/2016/03/NodeMCU-v0.9.jpg" width="240" /> | <img src="NodeMCU_v1.svg" width="240" /> |
+| <img src="https://i1.wp.com/www.esp8266learning.com/wp-content/uploads/2016/03/NodeMCU-v0.9.jpg" width="240" /> | <img src="/assets/NodeMCU_v1.svg" width="240" /> |
 
 ## NodeMCU v2
 
@@ -35,7 +35,7 @@ V2 fixade en del problem med V1 som t.ex. bredden så att den passar in bättre 
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
-| <img src="https://www.conrad.com/medias/global/ce/9000_9999/9400/9430/9437/1613301_ZB_00_FB.EPS_1000.jpg" width="240" /> | <img src="NodeMCU_v2.svg" width="240" /> |
+| <img src="https://www.conrad.com/medias/global/ce/9000_9999/9400/9430/9437/1613301_ZB_00_FB.EPS_1000.jpg" width="240" /> | <img src="/assets/NodeMCU_v2.svg" width="240" /> |
 
 
 ## NodeMCU v3
@@ -46,7 +46,7 @@ Se upp med dessa kort dock, deras fotavtryck är betydligt större än V2 så om
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
-| <img src="https://cdn.tindiemedia.com/images/resize/ewVRNa1aQJp9kjQbuJhJnCYxkIk=/p/full-fit-in/2400x1600/i/52445/products/2016-06-26T18%3A06%3A06.695Z-2.jpg" width="240" /> | <img src="NodeMCU_v3.svg" width="240" /> |
+| <img src="https://cdn.tindiemedia.com/images/resize/ewVRNa1aQJp9kjQbuJhJnCYxkIk=/p/full-fit-in/2400x1600/i/52445/products/2016-06-26T18%3A06%3A06.695Z-2.jpg" width="240" /> | <img src="/assets/NodeMCU_v3.svg" width="240" /> |
 
 ## Wemos D1 mini
 
@@ -54,4 +54,4 @@ Wemos D1 Mini är nykommlingen och som börjat användas mer än NodeMCU korten.
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
-| <img src="wemos_photo.jpeg" width="240" /> | <img src="Wemos_D1_Mini.svg" width="240" /> |
+| <img src="/assets/wemos_photo.jpeg" width="240" /> | <img src="/assets/Wemos_D1_Mini.svg" width="240" /> |

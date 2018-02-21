@@ -4,7 +4,7 @@ title: "Alternativ till avloppsrör"
 date: 2018-02-21 21:00:00
 categories: faq
 wide: true
-permalink: /faq/alternativ-till-avloppsrör
+permalink: /faq/alternativ-till-avloppsror
 authors:
   - luftdaten.info
   - Erik Näsström
