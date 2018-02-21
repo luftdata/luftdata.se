@@ -54,4 +54,4 @@ Wemos D1 Mini är nykommlingen och som börjat användas mer än NodeMCU korten.
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
-| <img src="https://wiki.wemos.cc/_media/products:d1:mini-1.jpg" width="240" /> | <img src="Wemos_D1_Mini.svg" width="240" /> |
+| <img src="wemos_photo.jpeg" width="240" /> | <img src="Wemos_D1_Mini.svg" width="240" /> |
