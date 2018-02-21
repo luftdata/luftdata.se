@@ -31,6 +31,7 @@ Den har en ESP-12 modul och 4MB flashminne
 
 ## NodeMCU v2
 
+V2 fixade en del problem med V1 som t.ex. bredden så att den passar in bättre på ett breadboard. Chippet uppgraderades från ESP-12 till ESP-12E
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
@@ -39,11 +40,17 @@ Den har en ESP-12 modul och 4MB flashminne
 
 ## NodeMCU v3
 
+V3 är den vanligaste kopian som går att beställas från t.ex. aliexpress, wish osv. men det finns inget officiellt 3e generationskort. V3 är en mindre ändrad variant av tillverkaren LoLin, skillnader är exempelvis USB ström ut och GND istället för 2 reservportar som finns på V2.
+
+Se upp med dessa kort dock, deras fotavtryck är betydligt större än V2 så om du har ett kretskort som den skall passa i så kommer det att skilja mellan storlekarna.
+
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
 | <img src="https://cdn.tindiemedia.com/images/resize/ewVRNa1aQJp9kjQbuJhJnCYxkIk=/p/full-fit-in/2400x1600/i/52445/products/2016-06-26T18%3A06%3A06.695Z-2.jpg" width="240" /> | <img src="NodeMCU_v3.svg" width="240" /> |
 
 ## Wemos D1 mini
+
+Wemos D1 Mini är nykommlingen och som börjat användas mer än NodeMCU korten. Den har samma bredd som NodeMCU V2 men med sina 34,2mm höjd är den nästan en tredjedel kortare. Hårdvaran är en ESP-8266EX MCU och den har 4Mb flashminne, den har 9 GPIO pinnar vilket bör räcka för de flesta projekten.
 
 | Utseende        | Kopplingsschema           |
 | ------------- |:-------------:| 
