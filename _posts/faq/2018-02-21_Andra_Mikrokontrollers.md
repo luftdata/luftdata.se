@@ -25,23 +25,26 @@ Originalet men nu väldigt efter i utvecklingen och går knappt att hitta. Oftas
 
 Den har en ESP-12 modul och 4MB flashminne
 
-![alt text](https://i1.wp.com/www.esp8266learning.com/wp-content/uploads/2016/03/NodeMCU-v0.9.jpg?resize=640%2C640)
-
-**Kopplingsschema**
-
-
-<img src="https://commons.wikimedia.org/wiki/File:Luftdata_-_NodeMCU_v1.png" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" />
+| Utseende        | Kopplingsschema           |
+| ------------- |:-------------:| 
+| <img src="https://i1.wp.com/www.esp8266learning.com/wp-content/uploads/2016/03/NodeMCU-v0.9.jpg" width="240" /> | <img src="NodeMCU_v1.svg" width="240" /> |
 
 ## NodeMCU v2
 
-![alt text]()
-![alt text]()
-https://www.conrad.com/medias/global/ce/9000_9999/9400/9430/9437/1613301_ZB_00_FB.EPS_1000.jpg
+
+| Utseende        | Kopplingsschema           |
+| ------------- |:-------------:| 
+| <img src="https://www.conrad.com/medias/global/ce/9000_9999/9400/9430/9437/1613301_ZB_00_FB.EPS_1000.jpg" width="240" /> | <img src="NodeMCU_v2.svg" width="240" /> |
+
+
 ## NodeMCU v3
 
-![alt text]()
-![alt text]()
-https://cdn.tindiemedia.com/images/resize/ewVRNa1aQJp9kjQbuJhJnCYxkIk=/p/full-fit-in/2400x1600/i/52445/products/2016-06-26T18%3A06%3A06.695Z-2.jpg
+| Utseende        | Kopplingsschema           |
+| ------------- |:-------------:| 
+| <img src="https://cdn.tindiemedia.com/images/resize/ewVRNa1aQJp9kjQbuJhJnCYxkIk=/p/full-fit-in/2400x1600/i/52445/products/2016-06-26T18%3A06%3A06.695Z-2.jpg" width="240" /> | <img src="NodeMCU_v3.svg" width="240" /> |
+
 ## Wemos D1 mini
 
-https://wiki.wemos.cc/_media/products:d1:mini-1.jpg
+| Utseende        | Kopplingsschema           |
+| ------------- |:-------------:| 
+| <img src="https://wiki.wemos.cc/_media/products:d1:mini-1.jpg" width="240" /> | <img src="Wemos_D1_Mini.svg" width="240" /> |
