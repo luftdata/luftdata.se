@@ -1417,11 +1417,11 @@ html.mm-background .mm-page,
         content:'';
         display:block;
         position:absolute;
-        width:1315px;
+        width:1314px;
         left:50%;
         bottom:0;
         margin-left:-658px;
-        @include retina-image('../img/home-banner', auto 215px, jpg);
+        @include retina-image('../img/home-banner', auto 333px, jpg);
         background-repeat:no-repeat;
         background-position:center bottom;
         height:215px;

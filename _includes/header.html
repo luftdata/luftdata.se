@@ -12,11 +12,9 @@
       <a href="{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Startsida</a>
     </li>
 
-    {% if disablesectionbelow %}
     <li {% if url_parts contains 'nyheter' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/nyheter/">Nyheter</a>
     </li>
-    {% endif %}
 
     <li {% if url_last ==  'om' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/om/">Om initiativet och luftdata.se</a>
@@ -51,7 +49,7 @@
     </li>
 
     <li {% if url_last == 'data' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/data/">Tillgång till data</a>
+      <a href="{{ site.baseurl }}/data/">Dataåtkomst</a>
       {% if disablesectionbelow %}
       <ul>
         <li {% if url_last == 'data' %}class="Selected"{% endif %}>
@@ -74,10 +72,14 @@
         {% for post in sorted_posts %}
         {% assign post_url_last = (post.url | split:'/' | last) %}
         <li {% if url_last == post_url_last %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/faq/#{{ post_url_last }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}/faq/{{ post_url_last }}">{{ post.title }}</a>
         </li>
         {% endfor %}
       </ul>
+    </li>
+
+    <li {% if url_parts contains 'lankar' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/lankar/">Länkar</a>
     </li>
 
     {% if disablesectionbelow %}
