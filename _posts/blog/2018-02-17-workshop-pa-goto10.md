@@ -7,6 +7,7 @@ lead: true
 wide: true
 authors:
   - Hannes Ebner
+summary: "Under denna workshop på Goto 10 kan du lära dig att bygga en mätstation för luftpartiklar (PM2.5 och PM10) enligt luftdata.se."
 ---
 Under denna workshop på Goto 10 kan du lära dig att bygga en mätstation för luftpartiklar (PM2.5 och PM10) enligt luftdata.se.
 
