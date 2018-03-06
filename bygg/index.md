@@ -23,10 +23,9 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
 
 ## Inköpslista
 
-  * NodeMCU ESP8266 v3 (CPU & WLAN) [[Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/utvecklingskort/nodemcu-utvecklingskort-p87949), [Amazon](https://www.amazon.de/dp/B06Y1ZPNMS/),
-  [Lawicel](https://www.lawicel-shop.se/nodemcu-v3-with-esp-12e-ch340)]
-  * SDS011 (partikelsensor) [[m.nu](https://www.m.nu/sensorer-matinstrument/nova-pm-sensor-sds011-1), [AliExpress](https://www.aliexpress.com/wholesale?SortType=price_asc&shipCountry=de&SearchText=sds011&CatId=523), [Segor](http://www.segor.de)]
-  * DHT22 (temp. och luftfuktighet, *valfritt*) [[m.nu](https://www.m.nu/sensorer-matinstrument/dht22-temperature-humidity-sensor-extras), [Amazon](https://www.amazon.de/dp/B06XF4TNT9/)]
+  * NodeMCU ESP8266 v3 (CPU & WLAN) [[Lawicel](https://www.lawicel-shop.se/nodemcu-v3-with-esp-12e-ch340), [Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/utvecklingskort/nodemcu-utvecklingskort-p87949), [Amazon](https://www.amazon.de/dp/B06Y1ZPNMS/)]
+  * SDS011 (partikelsensor) [[m.nu](https://www.m.nu/sensorer-matinstrument/nova-pm-sensor-sds011-1), [Lawicel](https://www.lawicel-shop.se/nova-pm-sensor-sds011), [AliExpress](https://www.aliexpress.com/wholesale?SortType=price_asc&shipCountry=de&SearchText=sds011&CatId=523), [Segor](http://www.segor.de)]
+  * DHT22 (temp. och luftfuktighet, *valfritt*) [[m.nu](https://www.m.nu/sensorer-matinstrument/dht22-temperature-humidity-sensor-extras), [Lawicel](https://www.lawicel-shop.se/dht22-temperature-humidity-sensor), [Amazon](https://www.amazon.de/dp/B06XF4TNT9/)]
   * Kopplingskablar, ca. 20 cm, hona-hona [[m.nu](https://www.m.nu/breadboarding/breadboarding-premium-female-female-jumper-wires-40-x-6-150mm), [Lawicel](https://www.lawicel-shop.se/kablage-labb/kopplingstrad/jumper-wires-f-f-15cm-10p), [Kjell](https://www.kjell.com/se/sortiment/el-verktyg/arduino/tillbehor/luxorparts-delbar-kopplingskabel-40-pol-hona-hona-p87906)]
   * USB-kabel, längd beroende på situation, USB 2.0 A hane - USB 2.0 micro hane, t.ex. platt utformning för fönstertätningar [[Conrad](https://www.conrad.se/USB-2.0-F%f6rl%e4ngningskabel-Renkforce-%5b1x-USB-2.0-A-hane-1x-USB-2.0-A-hona%5d-H%f6gflexibel-3-m-Svart.htm?websale8=conrad-swe&pi=1365367&amp;ci=SHOP_AREA_258249_0410105)]
   * USB-strömadapter [[IKEA](http://www.ikea.com/se/sv/catalog/products/00291891/) (prisvärt och [säker](https://youtu.be/uRe9w5PKmsE)), [Kjell](https://www.kjell.com/se/sortiment/dator-natverk/datortillbehor/usb-tillbehor/usb-laddare/linocell-mini-usb-laddare-2-4-a-svart-p95717), [Biltema](http://www.biltema.se/sv/Kontor---Teknik/Mobilt/Kablar-och-laddare/Reseladdare-USB-2000036148/)]
