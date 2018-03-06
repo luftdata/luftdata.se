@@ -14,9 +14,9 @@ authors:
 Du kan dela med dig av datan från din partikelsensor till openSenseMap om du följer dom här stegen.
 
 ## 1. Leta reda på inställningarna för din sensor och [registrera](https://opensensemap.org/register) en ny senseBox
-- Genom webgränssnittet för din partikelmätare kan du se vilka sensorer du har anslutit([Fig. 1](#figure-1-webinterface-particualte-matter-sensor)).
+- Genom webgränssnittet för din partikelmätare kan du se vilka sensorer du har anslutit([Fig. 1](#figur-1-webbgränssnitt-för-partikelsensor)).
 - Gå till [https://opensensemap.org/register](https://opensensemap.org/register), fyll i ditt namn, plats och övriga uppgifter.
-- I avdelningen **Hardware** väljer du **luftdaten.info**. Välj nu korrekt konfiguration enligt den/de sensorer som du har i din lokala installation ([Fig. 2](#figurre-2-registration-on-opensensemap)).
+- I avdelningen **Hardware** väljer du **luftdaten.info**. Välj nu korrekt konfiguration enligt den/de sensorer som du har i din lokala installation ([Fig. 2](#figur-2-registrering-hos-opensensemap)).
 - Avsluta registreringen
 - **OBS:** Kopiera ditt senseBox ID. Detta är en 24 tecken lång sträng som ser ut som denna: *58a88c6b650831d8a3625e01*
 - Om du registrerade dig med en giltig e-post fpr du även ditt ID via e-post.
