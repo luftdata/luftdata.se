@@ -31,7 +31,9 @@ Du kan dela med dig av datan från din partikelsensor till openSenseMap om du f�
 Din sensor bör nu börja skicka sin data även till openSenseMap!
 
 ## Figur 1: Webbgränssnitt för partikelsensor
+_Här ser du vilka sensorer du har kopplade till just din partikelsensor samt rutan längst ned där du klistrar in ditt ID_<br>
 <img src="/assets/luftdata_opensensemap.png"/>
 
 ## Figur 2: Registrering hos openSenseMap
+_Här väljer du samma uppsättning med sensorer som du har i Fig.1_<br>
 <img src="/assets/sensebox_luftdaten.png"/>
