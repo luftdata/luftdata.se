@@ -19,7 +19,7 @@ Innehållet i dessa instruktioner är baserade på [motsvarande instruktioner p�
 
 ![Bild på färdig mätstation](img/matstation.jpg)
 
-Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsställen om man befinner sig i Sverige:
+Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsställen om man befinner sig i Sverige. Gå direkt till avsnittet "Färdiga paketeringar" nedan om du är intresserad av att köpa ett helt kit.
 
 ## Inköpslista
 
@@ -35,6 +35,11 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
 
 Har du hittat nån bra källa för en byggdel? Hör av dig till [info@luftdata.se](mailto:info@luftdata.se) så lägger vi till infon här.
+
+## Färdiga paketeringar
+
+  * [r-pi.se](https://r-pi.se) erbjuder [ett färdigt "Luftpaket"](https://r-pi.se/labb-experiment/vader/luftdatas-luftkitt-med-partikelmatning) som innehåller alla delar som behövs.
+  * Vi anordnar workshops där vi försöker tillhandahålla alla delar antingen till självkostnadspris eller kostnadsfritt om vi lyckas hitta en sponsor för workshopen. Håll koll på [nyhetsflödet](/nyheter) och [Facebook-gruppen](https://www.facebook.com/groups/luftbubblan/) för att få uppdateringar om planerade workshops!
 
 {% if page.pagination.next %}
 ---

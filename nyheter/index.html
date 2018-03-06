@@ -14,14 +14,16 @@ section: Nyheter
      
     <ul class="post-list">
       {% for post in site.categories.blog %}
-      
-      {% assign post_length = post.content | number_of_words %}
-      <li class="{% if post_length > 100 %}long{% else %}short{% endif %}">
+      <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-excerpt">{{ post.content | truncatewords: 100 | markdownify | strip_html }}</span>
+        <span class="post-meta"><small><em>Publicerad {{ post.date | date: "%Y-%m-%d" }}</em></small></span>
+        {% if post.summary %}
+        <span class="post-excerpt">{{ post.summary }}</span>
+        {% else %}
+        <span class="post-excerpt">{{ post.content | truncatewords: 50 | markdownify | strip_html }}</span>
+        {% endif %}
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Läs mer</a>
       </li>
       {% endfor %}
