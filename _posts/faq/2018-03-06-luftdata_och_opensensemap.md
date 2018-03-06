@@ -13,25 +13,25 @@ authors:
 # Registrera en Luftdata.se partikelsensor på openSenseMap
 Du kan dela med dig av datan från din partikelsensor till openSenseMap om du följer dom här stegen.
 
-## 1. Look up your sensor configuration and [register](https://opensensemap.org/register) a new senseBox
-- Using the web interface of your device, you can find out which sensors are attached ([Fig. 1](#figure-1-webinterface-particualte-matter-sensor)).
-- Go to [https://opensensemap.org/register](https://opensensemap.org/register), fill out your name, location and exposure.
-- In the section **Hardware** select **luftdaten.info**. Now select the correct sensor configuration matching your local sensor configuration ([Fig. 2](#figurre-2-registration-on-opensensemap)).
-- Finish the registration.
-- **Attention:** Copy your senseBox ID. This is a 24 character long string looking like this: *58a88c6b650831d8a3625e01*
-- If you registered with a correct mail address, the senseBox ID will also be sent via mail.
+## 1. Leta reda på inställningarna för din sensor och [registrera](https://opensensemap.org/register) en ny senseBox
+- Genom webgränssnittet för din partikelmätare kan du se vilka sensorer du har anslutit([Fig. 1](#figure-1-webinterface-particualte-matter-sensor)).
+- Gå till [https://opensensemap.org/register](https://opensensemap.org/register), fyll i ditt namn, plats och övriga uppgifter.
+- I avdelningen **Hardware** väljer du **luftdaten.info**. Välj nu korrekt konfiguration enligt den/de sensorer som du har i din lokala installation ([Fig. 2](#figurre-2-registration-on-opensensemap)).
+- Avsluta registreringen
+- **OBS:** Kopiera ditt senseBox ID. Detta är en 24 tecken lång sträng som ser ut som denna: *58a88c6b650831d8a3625e01*
+- Om du registrerade dig med en giltig e-post fpr du även ditt ID via e-post.
 
-## 2. Configure your device
-- Go to the web interface of your device
-- Open the configuration page
-- Paste your senseBox ID in the field next to **Send to openSenseMap** and check the box.
-- Save the configuration with the button on the bottom of the page.
+## 2. Ställ in din sensor
+- Gå till webbgränssnittet för din sensor.
+- Öpnna konfigurationen.
+- Klistra in ditt senseBox ID i rutan bredvid **Send to openSenseMap** och kryssa i rutan.
+- Spara inställningarna med knappen längst ned på sidan.
 
-## Done
-Your device should now send its data to the openSenseMap!
+## Färdigt
+Din sensor bör nu börja skicka sin data även till openSenseMap!
 
-## Figure 1: Webinterface particulate matter sensor
-<img src="https://github.com/sensebox/resources/raw/master/images/luftdaten/02_Sensor_Konfiguration.png"/>
+## Figur 1: Webbgränssnitt för partikelsensor
+<img src="/assets/luftdata_opensensemap.png"/>
 
-## Figure 2: Registration on openSenseMap
-<img src="https://github.com/sensebox/resources/raw/master/images/luftdaten/01_openSenseMap_Konfiguration.png"/>
+## Figur 2: Registrering hos openSenseMap
+<img src="/assets/sensebox_luftdaten.png"/>
