@@ -4,7 +4,7 @@ title: "Luftdata i Grafana"
 date: 2018-03-06
 categories: faq
 wide: true
-permalink: /faq/luftdata-i_grafana
+permalink: /faq/luftdata-i-grafana
 authors:
   - Erik Näsström
 ---
@@ -28,42 +28,35 @@ Då SD kort är känsliga för stora mängder data som skrivs och läses så rek
 
 Vill du trots varningen installera InfluxDB på din raspberry följer instruktionerna nedan.
 
-```# ladda hem http transport 
+```
+# ladda hem http transport 
 sudo apt-get install apt-transport-https
-
 curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add - source /etc/os-release
 
 # Kommandot ovan borde ge ett "OK" om allt gick vägen.
-
 echo "deb https://repos.influxdata.com/debian jessie stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
-
 sudo apt-get update && sudo apt-get install influxdb
 ```
+
 Byt ut jessie i kommandot ovan om du kör en annan version.
 
 Om du inte fick något felmeddelande så är det nu dags att konfigurera InfluxDB
 
-```# För att konfigurera tjänsten körs följande kommando: 
+```
+# För att konfigurera tjänsten körs följande kommando: 
 sudo nano /etc/influxdb/influxdb.conf
-
 # editera följande tre rader genom att ta bort  "#" tecknet. 
-
 # [http]
   # Determines whether HTTP endpoint is enabled.
    enabled = true
-
   # The bind address used by the HTTP service.
    bind-address = ":8086"
-
   # Determines whether HTTP authentication is enabled.
    auth-enabled = false
-
   # The default realm sent back when issuing a basic auth challenge.
   # realm = "InfluxDB"
-
   # Determines whether HTTP request logging is enable.d
   # log-enabled = true
-
 #### 
 För att sedan spara tryck ctrl+x och Y och enter
 ```
@@ -88,7 +81,7 @@ Om du vill använda deras molntjänst så klickar du på den högra bilden på h
 sudo apt-get install apt-transport-https curl
 curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | sudo apt-key add -
 ```
-#### Uppdater Raspberryns APT källor<br>
+#### Uppdatera Raspberryns APT källor<br>
 **För Raspberry pi 1 och Raspberry Pi Zero W**<br>
 `echo "deb https://dl.bintray.com/fg2it/deb-rpi-1b jessie main" | sudo tee -a /etc/apt/sources.list.d/grafana.list`<br>
 **För Raspberry Pi 2 och Raspberry Pi 3**<br>
