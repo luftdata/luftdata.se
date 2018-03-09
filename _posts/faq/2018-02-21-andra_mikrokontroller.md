@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Andra mikrokontroller?"
+title: "Andra mikrokontroller"
 date: 2018-02-21 21:00:00
 categories: faq
 wide: true
