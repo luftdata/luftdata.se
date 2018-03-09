@@ -7,6 +7,7 @@ wide: true
 permalink: /faq/luftdata-influxdb-och-grafana
 authors:
   - Erik Näsström
+  - Torbjörn Söderberg
 ---
 Förutom den statistik som du kan få via kartan på [luftdata.se](http://sweden.maps.luftdaten.info/#5/63.000/16.000) så finns det några andra alternativ:
 
@@ -21,6 +22,32 @@ Du kan dela med dig av datan från din partikelsensor till openSenseMap och se s
 Luftdaten finns som en komponent att installera här: https://home-assistant.io/components/sensor.luftdaten/<br>
 Nedan finns ett exempel för hur det kan se ut i Home-Assistant. Exempel på .yaml kod för denna med medelvärden och kvaliten i text hittar du [här](https://github.com/Naesstrom/home_assistant/blob/master/sensors/luftdaten.yaml)<br>
 <img src="/assets/luftdata_hass.png" />
+
+## Home-Assistant via JSON
+Via en medlem i vår Facebook grupp kommer detta förslag, istället för att hämta datan via nätet till Home-Assistant kan du hämta det direkt från sensorns JSON flöde. Skapa följande sensorer för att hämta in luftdatan och temperatur samt luftfuktiget.
+```yaml
+sensor:
+  - platform: command_line
+    name: "Luftdata PM10"
+    command: 'curl http://192.168.xx.xx/data.json'
+    value_template: "{{ value_json.sensordatavalues[0].value | round(2) }}"
+    unit_of_measurement: "µg/m³"
+  - platform: command_line
+    name: "Luftdata PM2.5"
+    command: 'curl http://192.168.xx.xx/data.json'
+    value_template: "{{ value_json.sensordatavalues[1].value | round(2) }}"
+    unit_of_measurement: "µg/m³"
+  - platform: command_line
+    name: "Luftdata Temperature DHT22"
+    command: 'curl http://192.168.xx.xx/data.json'
+    value_template: "{{ value_json.sensordatavalues[2].value | round(1) }}"
+    unit_of_measurement: "°C"
+  - platform: command_line
+    name: "Luftdata Humidity DHT22"
+    command: 'curl http://192.168.xx.xx/data.json'
+    value_template: "{{ value_json.sensordatavalues[3].value | round(1) }}"
+    unit_of_measurement: "%"
+```
 
 ## Internt som JSON
 Du kan även hämta informationen direkt från din sensor som JSON via adressen http: // {ip-till-sensorn} /data.json<br>
