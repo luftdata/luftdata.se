@@ -32,7 +32,7 @@ Klicka på **Configuration** för att öppna (och ändra) inställningarna:
 
 Under **WiFi Settings** högst upp kan du mata in ditt nätverksnamn och lösenord. Förutom dessa inställningar behöver du inte ändra nånting om du har följt instruktionerna. Om du har kopplat in ytterligare sensorer eller displays så kan du behöva aktivera dessa längre ner i formuläret.
 
-Så fort du har sparat inställningarna startas mätstationen om och är inte längre tillgänglig på ovan angivna IP-adressen, istället får den en IP-adress i ditt vanliga trådlösa nätverket. Du kan enkelt ta reda på din mätstations IP-adress med appen [Fling](https://www.fing.io/) som finns för Android och iOS. Om din router delar ut dynamiska IP-adresser är ett tips att ge mätstationen en fast IP-adress i din routers inställningar.
+Så fort du har sparat inställningarna startas mätstationen om och är inte längre tillgänglig på ovan angivna IP-adressen, istället får den en IP-adress i ditt vanliga trådlösa nätverket. Du kan enkelt ta reda på din mätstations IP-adress med appen [Fing](https://www.fing.io/) som finns för Android och iOS. Om din router delar ut dynamiska IP-adresser är ett tips att ge mätstationen en fast IP-adress i din routers inställningar.
 
 I fortsättningen försöker mätstationen koppla upp sig på det förinställda trådlösa nätverket. Om uppkopplingen misslyckas så öppnar den egen åtkomstpunkt i 10 minuter, precis som beskriven högst upp på denna sida.
 
