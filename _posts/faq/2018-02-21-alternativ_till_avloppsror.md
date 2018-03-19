@@ -53,7 +53,24 @@ URL: [https://www.thingiverse.com/thing:2775946](https://www.thingiverse.com/thi
 <img src="/assets/CC_by_small.svg"> <a href="https://www.thingiverse.com/sumpfing/about">SUMPFING</a><br/>
 URL: [https://www.thingiverse.com/thing:2516382](https://www.thingiverse.com/thing:2516382)
 
-### Låda och yttre skyddsgaller
-<img src="https://cdn.thingiverse.com/renders/7d/6f/50/7d/05/9ea034aadb7c60347f920d580f3ea3af_preview_featured.jpg" width="300px"><br/>
-<img src="/assets/CC_by_small.svg"> <a href="https://www.thingiverse.com/leinich/about">LEINICH</a><br/>
-URL: [https://www.thingiverse.com/thing:2334919](https://www.thingiverse.com/thing:2334919)
+### Hållare för avloppsrör
+<img src="/assets/SDS011_pipe_holder.JPG" width="300px"><br/>
+<img src="/assets/CC_by_small.svg"> <a href="https://www.thingiverse.com/Naesstrom/about">Naesstrom</a><br/>
+URL: [https://www.thingiverse.com/thing:2830393](https://www.thingiverse.com/thing:2830393)
+
+### Komplett hållare med strålskydd
+<img src="/assets/sds_exploded_split.png" width="300px"><br/>
+<img src="/assets/CC_by_small.svg"> <a href="https://www.thingiverse.com/Naesstrom/about">Naesstrom</a><br/>
+URL: [https://www.thingiverse.com/thing:2821592](https://www.thingiverse.com/thing:2821592)
+
+## Variationer av avloppsrör
+Det går även att kombinera avloppsrör på flera sätt, här nedan finner du ett par exempel.
+
+### Vertikal montering
+<img src="/assets/John_ronnback_model.jpg" width="300px"><br/>
+<img src="/assets/CC_by_small.svg"> John Rönnbäck<br/>
+John delade sin variant i vår [Facebook Grupp](https://www.facebook.com/photo.php?fbid=10155668501289582&set=gm.191027508170068&type=3&theater&ifg=1) och den består av 3 olika delar:
+- 110mm skjutmuff (88-096)
+- 110mm ändstopp (88-084)
+- 110-50mm förminskning (88-088)
+_(nummer inom parantes är artikelnummer på Biltema)
