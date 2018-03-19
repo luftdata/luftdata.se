@@ -73,4 +73,5 @@ John delade sin variant i vår [Facebook Grupp](https://www.facebook.com/photo.p
 - 110mm skjutmuff (88-096)
 - 110mm ändstopp (88-084)
 - 110-50mm förminskning (88-088)
-_(nummer inom parantes är artikelnummer på Biltema)
+
+_(nummer inom parantes är artikelnummer på Biltema)_
