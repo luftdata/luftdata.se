@@ -62,9 +62,45 @@ För att sedan spara tryck ctrl+x och Y och enter
 ```
 Skriv sedan `service influxd restart` i din terminal och tryck Enter för att starta om IndluxDB.
 
-Om det allt fungerade skall du kunna surfa in på {ip-adressen}:8086 och få upp en sida som ser ut såhär<br>
-<img src="/assets/influxdb.png" /><br>
-I rutan längst upp kan du då skriva in `CREATE DATABASE "db_name"` men byt ut namnet mellan " till t.ex. **luftdata**. Du bör efter att ha kört det kommandot kunna välja **Luftdata** som en databas uppe till höger.
+Om det allt fungerade skall du kunna surfa in på {ip-adressen}:8083 och få upp en sida med texten<br>
+```404 page not found```
+<br>
+Nästa steg är att i terminalen skapa en ny databas genom följande kommandon:
+```
+sudo influx
+CREATE DATABASE luftdata
+```
+För att kontrollera att den verkligen skapades kan du skriva `show databases` och då skall den lista två stycken, `_internal`och `luftdata`som du just skapade.
+```
+root@InfluxDB:/ # influx
+Visit https://enterprise.influxdata.com to register for updates, InfluxDB server management, and monitoring.
+Connected to http://localhost:8086 version unknown
+InfluxDB shell version: unknown
+> create database luftdata2
+> show databases
+name: databases
+---------------
+name
+_internal
+luftdata
+>
+```
+Om du vill kan du testa så att databasen fungerar genom att först köra kommandot `exit` för att läman influx konsolen och sedan köra följande kommando för att skriva värden till databasen:
+```
+curl -i -XPOST "http://localhost:8086/write?db=luftdata&precision=s" --data-binary 'test,sensornamn=Demo temperatur=50 '
+```
+Kör sedan följande kommando för att lista värdet igen:
+```
+influx -execute 'SELECT * FROM test' -database luftdata
+```
+Om det nu fungerade att skriva och läsa bör du få en tabell som nedan, antal värden beror på hur många gånger du körde det första kommandot:
+```
+root@InfluxDB:/ # influx -execute 'SELECT * FROM test' -database luftdata
+name: test
+----------
+time                    sensornamn      temperatur
+1522668199000000000     Demo            50
+```
 
 ### 2. Installera Grafana
 #### 2.1 Molntjänst
