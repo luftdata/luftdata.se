@@ -62,7 +62,7 @@ För att sedan spara tryck ctrl+x och Y och enter
 ```
 Skriv sedan `service influxd restart` i din terminal och tryck Enter för att starta om IndluxDB.
 
-Om det allt fungerade skall du kunna surfa in på {ip-adressen}:8083 och få upp en sida med texten<br>
+Om allt fungerade skall du kunna surfa in på {ip-adressen}:8083 och få upp en sida med texten<br>
 ```404 page not found```
 <br>
 Nästa steg är att i terminalen skapa en ny databas genom följande kommandon:
