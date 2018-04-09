@@ -33,7 +33,7 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * Slang, invändig diameter 6 mm, längd ca. 20 cm [[Bauhaus](https://www.bauhaus.se/pvc-slang-6x1-5mm.html), [Biltema](http://www.biltema.se/sv/Bat/VVS/Slang/Vattenslang-10-m-2000017745/?artId=15330)]
   * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
 
-Har du hittat nån bra källa för en byggdel? Hör av dig till [info@luftdata.se](mailto:info@luftdata.se) så lägger vi till infon här.
+Har du hittat nån bra källa för en byggdel? Hör av dig till [{{ site.contact }}](mailto:{{ site.contact }}) så lägger vi till infon här.
 
 ## Färdiga paketeringar
 

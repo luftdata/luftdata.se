@@ -16,7 +16,7 @@ lead: false
 wide: true
 ---
 
-Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan". Skicka ett mail till [hannes@ebner.se](mailto:hannes@ebner.se) med följande information:
+Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan". Skicka ett mail till [{{ site.contact }}](mailto:{{ site.contact }}) med följande information:
 
   - ID av din NodeMCU som alltid är synlig högst upp i webbgränssnittet. IDn var också synlig som siffra i WLAN-namnet när du konfigurerade din mätstation ("Feinstaubsensor-`ID`"). 
   - Din adress: gatuadress med postnummer och ort (publiceras inte och används enbart för att beräkna grova koordinater till kartan).
