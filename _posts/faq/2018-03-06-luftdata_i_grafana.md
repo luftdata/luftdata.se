@@ -147,4 +147,4 @@ Spara och starta om din sensor, i fortsättningen kommer din partikelsensor att 
 När du har loggat in i Grafana så kan du skapa _"Dashboards"_ för uppsättningar av olika grafer och tabeller eller så kan du importera andra användares Dashboards som är gjorda för Luftdata.<br>
 Du hittar dessa här: https://grafana.com/dashboards?search=luftdaten
 
-Du kan även ta inspiration av några offentliga dashboards med aktuell data [här](http://luftdata.se/faq/grafana-dashboards)
+Du kan även ta inspiration av några offentliga dashboards med aktuell data [här](https://luftdata.se/faq/grafana-dashboards)

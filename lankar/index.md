@@ -56,7 +56,7 @@ Om du har fler länktips, lägg gärna in dem i [detta dokument](https://etherpa
 
 
 ## Vetenskapliga artiklar
-Se separat [litteraturlista](http://luftdata.se/lankar/vetenskapligaartiklar.html).
+Se separat [litteraturlista](https://luftdata.se/lankar/vetenskapligaartiklar.html).
 Vill du bidra? Gå med i [denna Zotero-grupp](https://www.zotero.org/groups/2101111/luftbubblan).
 
 <!--

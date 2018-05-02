@@ -13,7 +13,7 @@ Förutom den statistik som du kan få via kartan på [luftdata.se](http://sweden
 
 ## API
 
-Luftdaten.info har ett eget API där du kan komma åt information från andra sensorer än din egen, följ instruktionerna på vår sida om [dataåtkomst](http://luftdata.se/data/).
+Luftdaten.info har ett eget API där du kan komma åt information från andra sensorer än din egen, följ instruktionerna på vår sida om [dataåtkomst](https://luftdata.se/data/).
 
 ## OpenSenseMap
 

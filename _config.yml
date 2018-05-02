@@ -5,7 +5,7 @@ description: |
     Bygg en egen mätstation för luftpartiklar och bli del
     av ett världsomspännande Citizen Science-nätverk
 baseurl: ""
-url: "http://luftdata.se"
+url: "https://luftdata.se"
 github_username:  luftdata
 github_repo:  luftdata.se
 twitter: luftdata
