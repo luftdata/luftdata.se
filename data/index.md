@@ -42,7 +42,11 @@ Utöver API:et med realtidsdata finns även ett arkiv med CSV-dumpar på [`http:
 
 Du kan enkelt ta reda på en sensors ID-nummer genom att klicka på en sensor på kartan, "Sensor ID" visas sedan i informationsfliken till höger:
 
-![Hitta sensor ID](img/sensorid.png) 
+![Hitta sensor ID](img/sensorid.png)
+
+### Data från oregistrerade sensorer
+
+Arkivet innehåller enbart data från registrerade sensorer, dvs. sensorer som är synliga på kartan. Om du vill komma åt inrapporterade data från icke registrerade sensorer så kan du försöka leta efter din NodeMCUs ID på [https://www.madavi.de/sensor/csvfiles.php](https://www.madavi.de/sensor/csvfiles.php). Observera att det inte finns nån garanti att dina data finns där (särskilt efter en längre tid), så denna sida är att betrakta som nödlösning om man inte har ordnat eget utrymme för att spara sina data.
 
 ## Licenser
 
