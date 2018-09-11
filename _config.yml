@@ -31,15 +31,15 @@ contributors:
 
 supporters:
   -
-    name: ENTRYSCAPE
-    logo: entryscape.png
-    footer_logo: entryscape-footer.png
-    url: https://entryscape.com
-  -
     name: luftdaten.info - OK Lab Stuttgart
     logo: luftdaten.png
     footer_logo: luftdaten-footer.png
     url: http://luftdaten.info
+#  -
+#    name: ENTRYSCAPE
+#    logo: entryscape.png
+#    footer_logo: entryscape-footer.png
+#    url: https://entryscape.com
 
 markdown: kramdown
 
