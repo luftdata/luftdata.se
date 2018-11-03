@@ -37,5 +37,5 @@ Angående dagordningens punkt 13 "Motioner och propositioner": på föreningens 
 
 Styrelsen återkommer med e-post till medlemmarna med bl.a. verksamhetsberättelse/årsredovisning lite närmare mötet. Det kommer även att finnas mer detaljerad information om hur exakt man kommer att kunna delta på det digitala årsmötet.
 
-Hannes Ebner, hannes@luftdata.se
+Hannes Ebner, hannes@luftdata.se<br/>
 Ordförande, ideella föreningen Luftdata
