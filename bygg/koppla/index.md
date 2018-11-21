@@ -30,6 +30,8 @@ Du behöver [överföra firmware](../firmware) innan du kopplar ihop alla kompon
 
 ![Kopplingsschema NodeMCUv3 + SDS011 + DHT22](../img/nodemcuv3_sds011_dht22.jpg)
 
+Se längre ner för hur BME/BMP-sensorerna ska kopplas.
+
 ## Koppla SDS011 (partiklar)
 
 Alla pins är numrerade från vänster till höger. Se till att kopplingskablarna verkligen sitter på rätt ställe, det är lätt hänt att de hamnar mellan eller bredvid pins.
@@ -55,6 +57,17 @@ DHT22 Pin 1 -> Pin 3V3 (3.3V)
 DHT22 Pin 2 -> Pin D7 (GPIO13)
 DHT22 Pin 3 -> unused
 DHT22 Pin 4 -> Pin GND
+```
+
+## Koppla BMP180, BMP180 och BME280 (temperatur, luftfuktighet, lufttryck)
+
+Dessa sensorer kopplas in via I2C som kräver 4 kablar:
+
+```
+BMx VCC -> Pin 3V3
+BMx GND -> Pin GND
+BMx SCL -> Pin D4 (GPIO2)
+BMx SDA -> Pin D3 (GPIO0)
 ```
 
 ## Koppla in andra sensorer eller displays
