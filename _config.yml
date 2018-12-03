@@ -41,9 +41,6 @@ supporters:
 #    footer_logo: entryscape-footer.png
 #    url: https://entryscape.com
 
-plugins:
-  - jekyll-sitemap
-
 markdown: kramdown
 
 permalink: /:year/:month/:title.html
