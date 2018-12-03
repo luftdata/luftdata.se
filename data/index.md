@@ -1,5 +1,5 @@
 ---
-title: Dataåtkomst
+title: Dataåtkomst - mätdata som öppna data
 lang: sv
 layout: docs
 wide: true
@@ -7,7 +7,7 @@ authors:
  - Hannes Ebner
 lead: true
 ---
-Det finns flera olika sätt att komma åt all data som skickas till luftdaten.info. Denna sida sammanfattar åtkomst- och licensinformation.
+Det finns flera olika sätt att komma åt mätresultat som skickas till luftdaten.info och tillgängliggörs som öppna data. Denna sida sammanfattar åtkomst- och licensinformation.
 
 ## API
 
@@ -49,6 +49,8 @@ Du kan enkelt ta reda på en sensors ID-nummer genom att klicka på en sensor p�
 Arkivet innehåller enbart data från registrerade sensorer, dvs. sensorer som är synliga på kartan. Om du vill komma åt inrapporterade data från icke registrerade sensorer så kan du försöka leta efter din NodeMCUs ID på [https://www.madavi.de/sensor/csvfiles.php](https://www.madavi.de/sensor/csvfiles.php). Observera att det inte finns nån garanti att dina data finns där (särskilt efter en längre tid), så denna sida är att betrakta som nödlösning om man inte har ordnat eget utrymme för att spara sina data.
 
 ## Licenser
+
+Alla inrapporterade mätresultat är öppna data och kan även hittas genom öppna data-portaler som t.ex. [öppnadata.se](https://oppnadata.se).
 
 Licensen för data är [Database Contents License (DbCL) v1.0](https://opendatacommons.org/licenses/dbcl/1-0/).
 
