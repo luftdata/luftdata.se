@@ -9,8 +9,7 @@ The original content of this site is licensed as [Creative Commons Attribution-S
 ## How to build
 
 ```
-gem install jekyll bundler
-bundler
+gem install jekyll
 jekyll build
 ```
 
