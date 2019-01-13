@@ -38,12 +38,12 @@ I fortsättningen försöker mätstationen koppla upp sig på det förinställda
 
 <div class="note">
   <h6>Ett första test!</h6>
-  <p>Efter ca. 10 minuter kan du testa mätstationens rapportering på följande sidor (du behöver ersätta <code>2986431</code> med din sensorns ID):
+  <p>Efter ca. 10 minuter kan du testa mätstationens rapportering på följande sidor (du behöver ersätta <code>2985441</code> med ditt sensor-ID):
   <ul>
-  <li>PM2.5 &amp; PM10 (SDS011): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-sds011" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-sds011</code></a></li>
-  <li>Temperatur &amp; luftfuktighet (DHT22): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-dht" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-dht</code></a></li>
-  <li>Temperatur, luftfuktighet &amp; lufttryck (BME280): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-bme280" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2986431-bme280</code></a></li>
-  <li>WLAN-signalstyrka: <a href="https://www.madavi.de/sensor/signal.php?sensor=esp8266-2986431" target="_blank"><code>https://www.madavi.de/sensor/signal.php?sensor=esp8266-2986431</code></a></li>
+  <li>PM2.5 &amp; PM10 (SDS011): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-sds011" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-sds011</code></a></li>
+  <li>Temperatur &amp; luftfuktighet (DHT22): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-dht" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-dht</code></a></li>
+  <li>Temperatur, luftfuktighet &amp; lufttryck (BME280): <a href="https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-bme280" target="_blank"><code>https://www.madavi.de/sensor/graph.php?sensor=esp8266-2985441-bme280</code></a></li>
+  <li>WLAN-signalstyrka: <a href="https://www.madavi.de/sensor/signal.php?sensor=esp8266-2985441" target="_blank"><code>https://www.madavi.de/sensor/signal.php?sensor=esp8266-2985441</code></a></li>
   </ul>
   </p>
 </div>
