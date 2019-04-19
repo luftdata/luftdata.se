@@ -12,16 +12,13 @@ pagination:
   previous:
     name: Konfigurera mätstationen
     link: /bygg/konfigurera/
-lead: false
+lead: true
 wide: true
 ---
 
-Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan". Skicka ett mail till [{{ site.contact }}](mailto:{{ site.contact }}) med följande information:
+Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan".
 
-  - ID av din NodeMCU som alltid är synlig högst upp i webbgränssnittet. IDn var också synlig som siffra i WLAN-namnet när du konfigurerade din mätstation ("Feinstaubsensor-`ID`"). 
-  - Din adress: gatuadress med postnummer och ort (publiceras inte och används enbart för att beräkna grova koordinater till kartan).
-  - Beskrivning av stationens omgivning, t.ex. höjd över mark, närhet till väg, trafikmängd eller liknande.
-  - Din e-post-adress (publiceras inte).
+Gå in på [meine.luftdaten.info](https://meine.luftdaten.info) och skapa en användare. Efter du har loggat in kan du registrera din sensor och den borde bli synlig på kartan så fort den har börjat skicka data.
 
 <div class="note">
   <h6>Frågor?</h6>
