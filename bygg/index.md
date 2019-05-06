@@ -15,7 +15,7 @@ wide: true
 
 Monteringen är utformad så att alla kan bygga en mät&shy;station. Med endast 7 kopplings&shy;kablar och 2 bunt&shy;band gör du ett utvecklings&shy;kort och en sensor till en mät&shy;station.
 
-Innehållet i dessa instruktioner är baserade på [motsvarande instruktioner på tyska på luftdaten.info](http://luftdaten.info/feinstaubsensor-bauen/).
+Innehållet i dessa instruktioner är baserade på [motsvarande instruktioner på tyska på luftdaten.info](https://luftdaten.info/feinstaubsensor-bauen/). Det finns även [alternativa instruktioner](/assets/bygginstruktioner_lov-iot.pdf) i ett utskriftsvänligt format som har tagits fram av projektet [LoV-IoT](https://www.loviot.se/).
 
 ![Bild på färdig mätstation](img/matstation.jpg)
 
