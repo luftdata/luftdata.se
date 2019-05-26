@@ -20,8 +20,12 @@
       <a href="{{ site.baseurl }}/nyhetsbrev/">Nyhetsbrev</a>
     </li>
 
-    <li {% if url_last ==  'om' %}class="Selected"{% endif %}>
+    <li {% if url_last == 'om' %}class="Selected"{% endif %}>
       <a href="{{ site.baseurl }}/om/">Om initiativet och luftdata.se</a>
+    </li>
+
+    <li {% if url_last == 'forening' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/forening/">Ideella föreningen Luftdata</a>
     </li>
 
     <li {% if url_last == 'bygg' %}class="Selected"{% endif %}>
