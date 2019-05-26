@@ -1,4 +1,5 @@
 ---
+title: Betala medlemsavgiften med Swish
 layout: docs
 wide: true
 lead: true
