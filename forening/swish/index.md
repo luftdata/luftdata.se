@@ -9,4 +9,4 @@ Skanna QR-koden nedan eller använd Swish nummer 1234547972. Medlemsavgiften är
 
 Medlemsregistret bygger på e-post-adressen som du anger som meddelande när du skickar Swish-betalningen. Om du inte anger en korrekt e-post-adress kan föreningen inte nå dig för medlemsutskick. Dubbelkolla därför gärna ditt Swish-meddelande så att det blir rätt. Tack!
 
-<img alt="Luftdata Swish QR code" src="swish.png" width="50%" height="50%" />
+<center><img alt="Luftdata Swish QR code" src="swish.png" width="50%" height="50%" /></center>
