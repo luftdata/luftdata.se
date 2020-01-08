@@ -12,4 +12,4 @@ Vill du veta mer? Kika på stadgarna nedan och gå med i föreningen.
 
   * [Föreningens stadgar](stadgar.pdf)
   * [Bli medlem genom att swisha 100 kr till 1234547972](swish/)
-  * [Luftbubblan - vår grupp på Facebook][https://www.facebook.com/groups/luftbubblan]
+  * [Luftbubblan - vår grupp på Facebook](https://www.facebook.com/groups/luftbubblan)
