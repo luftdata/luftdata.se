@@ -1,6 +1,7 @@
 .idea
 *.iml
-.git
-.sass-cache
-_site
+.git/
+.sass-cache/
+_site/
 Gemfile.lock
+.jekyll-cache/
