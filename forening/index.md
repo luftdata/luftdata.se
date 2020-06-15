@@ -18,17 +18,17 @@ Vill du veta mer? Kika på stadgarna nedan och gå med i föreningen.
 
 Den nuvarande styrelsen i Luftdata består av följande medlemmar:
 
+  * [Izabela Cierlik](mailto:izabela@luftdata.se), ledamot
   * [Hannes Ebner](mailto:hannes@luftdata.se), ordförande
   * [Fredrik Henning](mailto:fredrik@luftdata.se), kassör
-  * [Peter Krantz](mailto:peter@luftdata.se), sekreterare
   * [Eric Hjelmestam](mailto:eric@luftdata.se), medlemsansvarig
   * [Miska Knapek](miska@luftdata.se), ledamot
-  * [Björn Hagström](mailto:bjorn@luftdata.se), ledamot
+  * [Peter Krantz](mailto:peter@luftdata.se), sekreterare
   * [Peter Ljungstrand](mailto:peter.ljungstrand@luftdata.se), ledamot
 
 ## Valberedning
 
-  * Erik Näsström
+  * Peter Nõu
   * Kristofer Sjöholm
   
 ## Revisor
