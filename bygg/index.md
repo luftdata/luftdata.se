@@ -19,7 +19,15 @@ Innehållet i dessa instruktioner är baserade på [motsvarande instruktioner p�
 
 ![Bild på färdig mätstation](img/matstation.jpg)
 
+Om du hellre vill titta på en videoinstruktion så har Christopher Kullenberg spelat in en film där han visar hur man bygger en mätstation:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yzhd6lCKG9E?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsställen om man befinner sig i Sverige. Gå direkt till avsnittet "Färdiga paketeringar" nedan om du är intresserad av att köpa ett helt kit.
+
+## Färdiga paketeringar
+
+  * [r-pi.se](https://r-pi.se) erbjuder [ett färdigt "Luftpaket"](https://r-pi.se/labb-experiment/vader/luftdatas-luftkitt-med-partikelmatning) som innehåller alla delar som behövs. Uppge koden "LUFTDATA" när du beställer och KKSB donerar en slant till [föreningen Luftdata](/forening/).
+  * Vi anordnar workshops där vi försöker tillhandahålla alla delar antingen till självkostnadspris eller kostnadsfritt om vi lyckas hitta en sponsor för workshopen. Håll koll på [nyhetsflödet](/nyheter) och [Facebook-gruppen](https://www.facebook.com/groups/luftbubblan/) för att få uppdateringar om planerade workshops!
 
 ## Inköpslista
 
@@ -35,11 +43,6 @@ Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsstä
   * 2x avloppsböj som väderskydd (böj 87°, Ø 75mm, t.ex. Marley Silent HT) [[Bauhaus](https://www.bauhaus.se/ht-avloppsror-boj-87-o75mm.html), [Biltema](http://www.biltema.se/sv/Bygg/VVS/Ror-och-rordelar/Avloppsror-och-rordelar/Avloppsboj-2000023051/?artId=87264)]
 
 Har du hittat nån bra källa för en byggdel? Hör av dig till [{{ site.contact }}](mailto:{{ site.contact }}) så lägger vi till infon här.
-
-## Färdiga paketeringar
-
-  * [r-pi.se](https://r-pi.se) erbjuder [ett färdigt "Luftpaket"](https://r-pi.se/labb-experiment/vader/luftdatas-luftkitt-med-partikelmatning) som innehåller alla delar som behövs. Uppge koden "LUFTDATA" när du beställer och KKSB donerar en slant till [föreningen Luftdata](/forening/).
-  * Vi anordnar workshops där vi försöker tillhandahålla alla delar antingen till självkostnadspris eller kostnadsfritt om vi lyckas hitta en sponsor för workshopen. Håll koll på [nyhetsflödet](/nyheter) och [Facebook-gruppen](https://www.facebook.com/groups/luftbubblan/) för att få uppdateringar om planerade workshops!
 
 {% if page.pagination.next %}
 ---
