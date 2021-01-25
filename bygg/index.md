@@ -19,10 +19,12 @@ Innehållet i dessa instruktioner är baserade på [motsvarande instruktioner p�
 
 ![Bild på färdig mätstation](img/matstation.jpg)
 
-Om du hellre vill titta på en videoinstruktion så har Christopher Kullenberg spelat in en film där han visar hur man bygger en mätstation:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yzhd6lCKG9E?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Längre ned finns en lista med alla delar som behövs, samt rekommenderade inköpsställen om man befinner sig i Sverige. Gå direkt till avsnittet "Färdiga paketeringar" nedan om du är intresserad av att köpa ett helt kit.
 
-Nedan finns en lista med alla delar som behövs, samt rekommenderade inköpsställen om man befinner sig i Sverige. Gå direkt till avsnittet "Färdiga paketeringar" nedan om du är intresserad av att köpa ett helt kit.
+## Film
+
+Om du hellre vill titta på en videoinstruktion så har Christopher Kullenberg spelat in en film där han visar hur man bygger en mätstation.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yzhd6lCKG9E?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Färdiga paketeringar
 
