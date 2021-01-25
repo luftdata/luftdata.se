@@ -38,7 +38,7 @@ Har du hittat nån bra källa för en byggdel? Hör av dig till [{{ site.contact
 
 ## Färdiga paketeringar
 
-  * [r-pi.se](https://r-pi.se) erbjuder [ett färdigt "Luftpaket"](https://r-pi.se/labb-experiment/vader/luftdatas-luftkitt-med-partikelmatning) som innehåller alla delar som behövs.
+  * [r-pi.se](https://r-pi.se) erbjuder [ett färdigt "Luftpaket"](https://r-pi.se/labb-experiment/vader/luftdatas-luftkitt-med-partikelmatning) som innehåller alla delar som behövs. Uppge koden "LUFTDATA" när du beställer och KKSB donerar en slant till [föreningen Luftdata](/forening/).
   * Vi anordnar workshops där vi försöker tillhandahålla alla delar antingen till självkostnadspris eller kostnadsfritt om vi lyckas hitta en sponsor för workshopen. Håll koll på [nyhetsflödet](/nyheter) och [Facebook-gruppen](https://www.facebook.com/groups/luftbubblan/) för att få uppdateringar om planerade workshops!
 
 {% if page.pagination.next %}
