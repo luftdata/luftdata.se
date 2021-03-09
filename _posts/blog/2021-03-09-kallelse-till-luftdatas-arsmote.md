@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Kallelse till Luftdatas årsmöte den 27 april 2020 kl 19"
-date: 2020-03-09 12:00:00
+title: "Kallelse till Luftdatas årsmöte 23-27 april 2021"
+date: 2021-03-09 12:00:00
 categories: blog
 lead: true
 wide: true
