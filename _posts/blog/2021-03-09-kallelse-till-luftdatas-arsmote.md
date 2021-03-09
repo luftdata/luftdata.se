@@ -7,9 +7,15 @@ lead: true
 wide: true
 authors:
   - Hannes Ebner
-summary: "Medlemmarna i den ideella föreningen Luftdata kallas till ordinarie årsmöte mellan fredagen den 23 april 2021 och tisdagen den 27 april 2021 kl 20:00. Årsmötet kommer att hållas digitalt med formulär."
+summary: "Medlemmarna i den ideella föreningen Luftdata kallas till ordinarie årsmöte mellan fredagen den 23 april 2021 och tisdagen den 27 april 2021 kl 20:00. Årsmötet kommer att hållas digitalt via webbformulär."
 ---
 {{ page.summary }}
+
+Styrelsen återkommer via e-post med årsredovisningen lite närmare mötet. Det kommer även att finnas mer detaljerad information om hur exakt man kommer att kunna delta på det digitala årsmötet.
+
+Tänk på att lämna in motioner i tid! Enligt stadgarna ska motioner ha inkommit till styrelsensenast sex veckor innan årsmötet. Motioner skickas till [styrelsen@luftdata.se](mailto:styrelsen@luftdata.se).
+
+OBS: för att ingå i röstlängden krävs att medlemsavgiften för 2021 är betald. Medlemsavgiften på 100 kr erläggs enklast via Swish till 1234547972 (eller skanna [QR-koden](/forening/swish/)). Ange din e-post-adress i meddelandet!
 
 ## Dagordning
 
@@ -33,10 +39,3 @@ summary: "Medlemmarna i den ideella föreningen Luftdata kallas till ordinarie �
   18. Val av valberedning
   19. Övriga frågor
   20. Årsmötets avslutande
-
-Styrelsen återkommer via e-post med årsredovisningen lite närmare mötet. Det kommer även att finnas mer detaljerad information om hur exakt man kommer att kunna delta på det digitala årsmötet.
-
-Tänk på att lämna in motioner i tid! Enligt stadgarna ska motioner ha inkommit till styrelsensenast sex veckor innan årsmötet. Motioner skickas till [styrelsen@luftdata.se](mailto:styrelsen@luftdata.se).
-
-Hannes Ebner, hannes@luftdata.se<br/>
-Ordförande, ideella föreningen Luftdata
