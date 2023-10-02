@@ -13,19 +13,17 @@ Vill du veta mer? Kika på stadgarna nedan och gå med i föreningen.
 
   * [Föreningens stadgar](stadgar.pdf)
   * [Bli medlem genom att swisha 100 kr till 1234547972](swish/)
-  * [Luftbubblan - vår grupp på Facebook](https://www.facebook.com/groups/luftbubblan)
+  * [Luftbubblan - Facebook-grupp för att diskutera frågor kring luftkvalitet](https://www.facebook.com/groups/luftbubblan)
 
 ## Styrelse
 
 Den nuvarande styrelsen i Luftdata består av följande medlemmar:
 
-  * [Elias Arnestrand](mailto:elias@luftdata.se), ledamot
-  * [Izabela Cierlik](mailto:izabela@luftdata.se), ledamot
+  * Fredrik Björklund, ledamot
   * [Hannes Ebner](mailto:hannes@luftdata.se), ordförande
   * [Fredrik Henning](mailto:fredrik@luftdata.se), kassör
   * [Eric Hjelmestam](mailto:eric@luftdata.se), medlemsansvarig
   * [Peter Ljungstrand](mailto:peter.ljungstrand@luftdata.se), ledamot
-  * [Hannes Wistrand](mailto:hannes.wistrand@luftdata.se), ledamot
 
 ## Valberedning
 
