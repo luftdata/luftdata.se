@@ -13,7 +13,7 @@ facebook: https://www.facebook.com/groups/luftbubblan
 contact: info@luftdata.se
 luftdaten_map: https://maps.sensor.community/#5/62.913/17.386
 
-googleanalytics: UA-111883597-1
+#googleanalytics: UA-111883597-1
 #google_verification:
 
 contributors:
@@ -31,10 +31,10 @@ contributors:
 
 supporters:
   -
-    name: luftdaten.info - OK Lab Stuttgart
+    name: Sensor.Community
     logo: luftdaten.png
     footer_logo: luftdaten-footer.png
-    url: http://luftdaten.info
+    url: https://sensor.community/
 #  -
 #    name: ENTRYSCAPE
 #    logo: entryscape.png
@@ -60,8 +60,8 @@ defaults:
 
 related_projects:
   -
-      name: luftdaten.info
-      link: http://luftdaten.info/
+      name: Sensor.Community
+      link: https://sensor.community/
   -
       name: InfluenceAir
       link: http://influencair.be/
