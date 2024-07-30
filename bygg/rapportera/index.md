@@ -18,7 +18,7 @@ wide: true
 
 Vi behöver lite information innan din mätstation blir en del av nätverket och dyker upp på "partikelkartan".
 
-Gå in på [mina.luftdata.se](http://mina.luftdata.se) och skapa en användare. Efter du har loggat in kan du registrera din sensor och den borde bli synlig på kartan så fort den har börjat skicka data.
+Gå in på [devices.sensor.community](https://devices.sensor.community/) och skapa en användare. Efter du har loggat in kan du registrera din sensor och den borde bli synlig på kartan så fort den har börjat skicka data.
 
 <div class="note">
   <h6>Frågor?</h6>
