@@ -62,7 +62,7 @@ Gå direkt till nästa steg: [{{ page.pagination.next.name }}]({{ page.paginatio
 
 ### Överföra firmware
 
-Ladda ner firmware från [`https://www.madavi.de/sensor/update/data/latest_en.bin`](https://www.madavi.de/sensor/update/data/latest_en.bin) och koppla din NodeMCU till datorn med en USB 2.0-kabel.
+Ladda ner firmware från [`https://firmware.sensor.community/airrohr/update/latest_en.bin`](https://firmware.sensor.community/airrohr/update/latest_en.bin) och koppla din NodeMCU till datorn med en USB 2.0-kabel.
 
 Du kan undvika eventuella problem vid uppkoppling eller överföring genom att använda en USB 2.0-port (USB 3.0 kan ge problem med Windows) och en kabel som inte är längre än 1 meter.
   
