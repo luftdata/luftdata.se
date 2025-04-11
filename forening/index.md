@@ -12,23 +12,20 @@ Föreningen verkar för ökad kunskap om luftkvalitet och hur den påverkar män
 Vill du veta mer? Kika på stadgarna nedan och gå med i föreningen. 
 
   * [Föreningens stadgar](stadgar.pdf)
-  * [Bli medlem genom att swisha 100 kr till 1234547972](swish/)
+  * [Bli medlem genom att maila till styrelsen](mailto:info@luftdata.se) - det är kostnadsfritt!
   * [Luftbubblan - Facebook-grupp för att diskutera frågor kring luftkvalitet](https://www.facebook.com/groups/luftbubblan)
 
 ## Styrelse
 
 Den nuvarande styrelsen i Luftdata består av följande medlemmar:
 
-  * Fredrik Björklund, ledamot
   * [Hannes Ebner](mailto:hannes@luftdata.se), ordförande
-  * [Fredrik Henning](mailto:fredrik@luftdata.se), kassör
-  * [Eric Hjelmestam](mailto:eric@luftdata.se), medlemsansvarig
-  * [Peter Ljungstrand](mailto:peter.ljungstrand@luftdata.se), ledamot
+  * [Eric Hjelmestam](mailto:eric@luftdata.se)
+  * [Peter Ljungstrand](mailto:peter.ljungstrand@luftdata.se)
 
 ## Valberedning
 
   * Peter Nõu
-  * Kristofer Sjöholm
   
 ## Revisor
 
